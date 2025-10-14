@@ -27,7 +27,7 @@
     "contacts": [	
       {	
         "identifier": "MO",
-        "name": "UK Met Office weather desk",	
+        "name": "Met Office",	
         "organization": "Met Office",	
         "phones": [	
           {	
@@ -44,7 +44,7 @@
             "deliveryPoint": [	
               "FitzRoy Road"	
             ],	
-            "name": "UK Met Office",	
+            "name": "Met Office",	
             "city": "Exeter",	
             "administrativeArea": "Devon",
             "postalCode": "EX1 3PB",	
@@ -76,8 +76,7 @@
         "concepts": [	
           {	
             "id": "Application-ready",	
-            "title": "ukmo:dataReadiness",
-            "description": "",	
+            "title": "dataReadiness",
             "url": "http://reference.metoffice.gov.uk/DataCategories/data-readiness/Application-ready"	
           }	
         ],	
@@ -87,7 +86,7 @@
         "concepts": [	
           {	
             "id": "Observations",	
-            "title": "ukmo:dataType",
+            "title": "dataType",
             "description": "Observations data are defined as measurements of the physical, chemical and/or biological environment, measured at a specific time in the past.  They may be direct or indirect measurements and may be feature or coverage data.  In order to be valid, observations data must carry geospatial and temporal metadata as well as variable values (or equivalent such as pixel values for a faster coverage).",	
             "url": "http://reference.metoffice.gov.uk/DataCategories/data-types/Observations"	
           }	
