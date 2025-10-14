@@ -1,10 +1,10 @@
 {	
-  "id": "urn:wmo:md:uk-metoffice:weather.prediction.forecast.global_6_days",	
+  "id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.forecast.mogreps-g",	
   "type": "Feature",
   "conformsTo": [	
     "http://wis.wmo.int/spec/wcmp/2/conf/core"	
   ],  
-  "geometry": {
+ "geometry": {
       "type": "Polygon",
       "coordinates": [[             
         [-180, 90],
@@ -17,42 +17,58 @@
  "time": {	
     "interval": [	
         "T00Z",	
-        "T144Z"	
+        "T240Z"
     ],	
-    "resolution": "PT3H"	
+    "resolution": "PT3H"
   },
  "additionalExtents": {
     "vertical": {
       "interval": [
-        ["200","925"]
+        ["250","925"]
       ],
-      "values": ["200", "250", "500", "700","850","925"],
+      "values": ["250", "500","700","850","925"],
       "vrs": "VERTCS[\"WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"hPa\",1.0]],AXIS[\"Up\",UP]",
-      "description": "Pressure levels and height vary by parameter: Geopotential height, temperature, and relative humidity are available at 850, 500, 250, and 200 hPa; wind zonal (u) and wind meridional velocity (v) are available at 925, 850, 700, 500, 250, and 200 hPa; Surface level parameters: MSLP, 1.5-m temperature, 1.5-m min and max temperatures, 1.5-m dewpoint, 10-m u, 10-m v, 10-m wind gust, total precipitation, total solid precipitation, CAPE, total precipitable water, and total cloud cover."
-    },		
+      "description": "Pressure levels and height vary by parameter: Percentiles for temperature are available at 850 hPa and 1.5m; Probability of wind speed is available at 10m; Percentiles for wind speed are available at 850 and 250 hPa, also at 10m; Probability of/Percentiles for wind gust are available at 10m; Ensemble mean and spread (standard deviation) of geopotential height is available at 500 hPa; Percentiles for magnitude of wind shear is calculated as vector differences between 250 hPa and 850 hPa, and between 700 hPa and 925 hPa; Probability of total precipitation, Percentiles for total precipitation, Percentile for CAPE, Percentile for total cloud cover, and Ensemble mean and spread (standard deviation) of mean sea-level pressure (MSLP) are available at surface level."
+    },	
+    "probabilistic": {
+      "interval": [
+         ["1","100"]
+      ],
+      "values": ["1", "5", "10", "15", "20", "25", "35", "50", "100"],
+      "reference": "Probablity scale from 0% to 100%",
+      "description": "Includes probability for: Total precipitation (surface level): thresholds of 1, 5, 10, 25, 50, and 100 mm over 24 hours; 1, 5, 10, 25, and 50 mm over 6 hours; Wind speed (10 m): thresholds of 10, 15, 20, and 25 m/s; Wind gust (10 m): thresholds of 15, 25, and 35 m/s."
+    },
+    "percentiles": {
+      "interval": [
+        ["min","maximum"]
+      ],
+      "values": ["min","25th", "50th", "75th", "maximum"],
+      "vrs": "VERTCS[\"WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],AXIS[\"Up\",UP]",
+      "description": "Includes percentile for:Total precipitation (surface): 25th, 50th, 75th, maximum; Total solid precipitation (surface): 25th, 50th, 75th, maximum; Temperature (2 m, 850 hPa): min, 25th, 50th, 75th, maximum; Wind speed (10 m, 850 hPa, 250 hPa): min, 25th, 50th, 75th, maximum; Wind gust (10 m): min, 25th, 50th, maximum; CAPE (surface): 25th, 50th, 75th, maximum; Wind shear magnitude (vector difference between 250 hPa and 850 hPa, and between 700 hPa and 925 hPa): 25th, 50th, 75th, maximum; Total cloud cover (surface): min, 25th, 50th, 75th, maximum."
+    },
     "temporal": {
       "interval": [
-        ["T00Z","PT144H"],
-        ["T12Z","PT144H"]
-    ],
+        ["T00Z","PT240H"],
+        ["T12Z","PT240H"]
+    ],	
     "values": [
       "R24/T00Z/PT3H",      
-      "R12/T00Z/PT6H",
+      "R28/T00Z/PT6H",
       "R24/T12Z/PT3H",
-      "R12/T12Z/PT6H"
+      "R28/T12Z/PT6H"
     ],
     "resolution": "PT3H",
     "trs": "http://www.opengis.net/def/trs/ISO-8601",
-    "description": "Forecast runs occur twice daily at times T00Z and T12Z. Each run covers 6 days (144 hours), with 3-hourly steps up to 72 hours and 6-hourly steps thereafter."	
-   }
+    "description": "Forecast runs occur twice daily at times T00Z and T12Z. Each run covers 10 days (240 hours), with 3-hourly steps up to 72 hours and 6-hourly steps thereafter."
+    }
   },
   "properties": {
-    "title": "Met Office Global Deterministic NWP",	
-    "description": "Met Office short-range global deterministic forecast. 0.5-degree x 0.5-degree regular lat./lon. Grid; forecast range 72H; timesteps every 3hrs; runs 00/12 UTC; various parameters and various levels.",	
+    "title": "Met Office Global Ensemble NWP",	
+    "description": "Met Office medium-range global ensemble forecast. 0.5-degree x 0.5-degree regular lat./lon. grid; forecast range up to 240h; time steps every 3hrs up to 72h, then every 6hrs; runs 00/12 UTC; various parameters, various levels, and various thresholds.",	
     "contacts": [	
       {	
         "identifier": "MO",
-        "name": "UK Met Office weather desk",	
+        "name": "Met Office",	
         "organization": "Met Office",	
         "phones": [	
           {	
@@ -69,7 +85,7 @@
             "deliveryPoint": [	
               "FitzRoy Road"	
             ],	
-            "name": "UK Met Office",	
+            "name": "Met Office",	
             "city": "Exeter",	
             "administrativeArea": "Devon",
             "postalCode": "EX1 3PB",	
@@ -91,34 +107,25 @@
        "prediction",	
        "forecast",
        "medium range",
-       "deterministic",
+       "ensemble",
        "global",
        "Geopotential height",
-       "Temperature",
-       "Wind zonal velocity (u)",
-       "Wind meridional velocity (v)",
-       "Relative humidity",
-       "Mean sea-level pressure (MSLP)",
        "1.5m Temperature",
-       "1.5m min temperature",
-       "1.5m max temperature",
-       "1.5m Dewpoint temperature",
-       "10m Wind zonal velocity (u)",
-       "10m Wind meridional velocity (v)",
+       "10m Wind speed",
+       "Mean sea-level pressure (MSLP)",
        "10m Wind gust",
        "Total precipitation",
        "Total solid precipitation",
        "Convective Available Potential Energy (CAPE)",
-       "Total precipitable water",
-       "Total cloud cover"
+       "Total cloud cover",
+       "Wind shear"
      ],	
     "themes": [	
       {	
         "concepts": [	
           {	
             "id": "Application-ready",	
-            "title": "ukmo:dataReadiness",
-            "description": "",	
+            "title": "dataReadiness",
             "url": "http://reference.metoffice.gov.uk/DataCategories/data-readiness/Application-ready"	
           }	
         ],	
@@ -128,7 +135,7 @@
         "concepts": [	
           {	
             "id": "PredictionsPostProcessed",	
-            "title": "ukmo:dataType",
+            "title": "dataType",
             "description": "Predictions and Post Processed data are defined as data that infers a full coverage of the state of the physical, chemical and/or biological environment within a given domain and specific context. This includes data assimilation analysis, projections and predictions to different times and post processed outputs derived from predictions. Data are produced using automated production typically in large volumes controlled by algorithms and data science. Prediction data can take many forms, but they always have a Geospatial Feature, Coverage or native grids on creation. They may be packaged differently for supply for customer requirement.",	
             "url": "http://reference.metoffice.gov.uk/DataCategories/data-types/PredictionsPostProcessed"	
           }	
@@ -168,39 +175,9 @@
             "url": "http://codes.wmo.int/grib2/codeflag/4.2/0-0-0"	
           },
           {	
-            "id": "0-2-2",	
-            "title": "u-component of wind",	
-            "url": "http://codes.wmo.int/grib2/codeflag/4.2/0-2-2"	
-          },
-          {	
-            "id": "0-2-3",	
-            "title": "v-component of wind",	
-            "url": "http://codes.wmo.int/grib2/codeflag/4.2/0-2-3"	
-          },
-          {	
-            "id": "0-1-1",	
-            "title": "Relative humidity",	
-            "url": "http://codes.wmo.int/grib2/codeflag/4.2/0-1-1"	
-          },
-          {	
             "id": "0-3-1",	
             "title": "Pressure reduced to MSL",	
             "url": "http://codes.wmo.int/grib2/codeflag/4.2/0-3-1"	
-          },
-          {	
-            "id": "0-0-5",	
-            "title": "Minimum temperature",	
-            "url": "http://codes.wmo.int/grib2/codeflag/4.2/0-0-5"	
-          },
-          {	
-            "id": "0-0-4",	
-            "title": "Maximum temperature",	
-            "url": "http://codes.wmo.int/grib2/codeflag/4.2/0-0-4"	
-          },
-          {	
-            "id": "0-0-6",	
-            "title": "Dewpoint temperature",	
-            "url": "http://codes.wmo.int/grib2/codeflag/4.2/0-0-6"	
           },
           {	
             "id": "0-2-22",	
@@ -223,11 +200,6 @@
             "url": "http://codes.wmo.int/grib2/codeflag/4.2/0-7-6"	
           },
           {	
-            "id": "0-1-49",	
-            "title": "Total water precipitation",	
-            "url": "http://codes.wmo.int/grib2/codeflag/4.2/0-1-49"	
-          },
-          {	
             "id": "0-6-1",	
             "title": "Total cloud cover",	
             "url": "http://codes.wmo.int/grib2/codeflag/4.2/0-6-1"	
@@ -245,14 +217,14 @@
   "links": [
     {	
       "rel": "related",	
-      "href": "https://www.metoffice.gov.uk/research/approach/modelling-systems/unified-model/weather-forecasting",	
+      "href": "https://www.metoffice.gov.uk/research/weather/ensemble-forecasting/mogreps",	
       "type": "text/html",	
-      "title": "Documentation"	
+      "title": "Documentation"
     },	
     {	
       "rel": "items",	
       "href": "mqtts://broker.metoffice.gov.uk",	
-      "channel": "origin/a/wis2/uk-metoffice/data/core/weather/prediction/forecast/medium-range/deterministic/global",	
+      "channel": "origin/a/wis2/uk-metoffice-wmc/data/core/weather/prediction/forecast/medium-range/probabilistic/global",	
       "type": "application/geo+json",	
       "title": "Data notifications broker"	
     }	

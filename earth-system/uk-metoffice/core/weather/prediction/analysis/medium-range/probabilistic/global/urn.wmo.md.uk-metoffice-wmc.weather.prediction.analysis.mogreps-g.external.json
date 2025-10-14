@@ -1,5 +1,5 @@
 {	
-  "id": "urn:wmo:md:uk-metoffice:weather.prediction.analysis.mogreps-g",	
+  "id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.analysis.mogreps-g",	
   "type": "Feature",
   "conformsTo": [	
     "http://wis.wmo.int/spec/wcmp/2/conf/core"	
@@ -61,7 +61,7 @@
     "contacts": [	
       {	
         "identifier": "MO",
-        "name": "UK Met Office weather desk",	
+        "name": "Met Office",	
         "organization": "Met Office",	
         "phones": [	
           {	
@@ -78,7 +78,7 @@
             "deliveryPoint": [	
               "FitzRoy Road"	
             ],	
-            "name": "UK Met Office",	
+            "name": "Met Office",	
             "city": "Exeter",	
             "administrativeArea": "Devon",
             "postalCode": "EX1 3PB",	
@@ -118,8 +118,7 @@
         "concepts": [	
           {	
             "id": "Application-ready",	
-            "title": "ukmo:dataReadiness",
-            "description": "",	
+            "title": "dataReadiness",
             "url": "http://reference.metoffice.gov.uk/DataCategories/data-readiness/Application-ready"	
           }	
         ],	
@@ -129,7 +128,7 @@
         "concepts": [	
           {	
             "id": "PredictionsPostProcessed",	
-            "title": "ukmo:dataType",
+            "title": "dataType",
             "description": "Predictions and Post Processed data are defined as data that infers a full coverage of the state of the physical, chemical and/or biological environment within a given domain and specific context. This includes data assimilation analysis, projections and predictions to different times and post processed outputs derived from predictions. Data are produced using automated production typically in large volumes controlled by algorithms and data science. Prediction data can take many forms, but they always have a Geospatial Feature, Coverage or native grids on creation. They may be packaged differently for supply for customer requirement.",	
             "url": "http://reference.metoffice.gov.uk/DataCategories/data-types/PredictionsPostProcessed"	
           }	
@@ -218,7 +217,7 @@
     {	
       "rel": "items",	
       "href": "mqtts://broker.metoffice.gov.uk",	
-      "channel": "origin/a/wis2/uk-metoffice/data/core/weather/prediction/analysis/medium-range/probabilistic/global",	
+      "channel": "origin/a/wis2/uk-metoffice-wmc/data/core/weather/prediction/analysis/medium-range/probabilistic/global",	
       "type": "application/geo+json",	
       "title": "Data notifications broker"	
     }	
