@@ -23,7 +23,7 @@
   },  
   "properties": {
     "title": "UK Argo float data",	
-    "description": "Real-time sub-surface ocean observations from UK Argo floats",	
+    "description": "The UK Argo float data is part of the international Argo programme, which deploys autonomous profiling floats globally to collect subsurface ocean observations. These floats measure temperature, salinity, and increasingly biogeochemical parameters such as dissolved oxygen, chlorophyll fluorescence, optical backscatter, pH, nitrate, and irradiance. Floats typically cycle every 10 days, drifting at ~1000m depth before descending to ~2000m and ascending while collecting data. Data are distributed via WIS2 in BUFR format, the data are also available from the two Argo Global Data Assembly Centres (GDACs) in netCDF format. The UK Argo Programme is carried out through collaboration between the Met Office, the National Oceanography Centre (NOC) and the British Antarctic Survey (BAS).",	
     "contacts": [	
       {	
         "identifier": "MO",
@@ -134,6 +134,12 @@
       "type": "text/html",	
       "title": "Documentation"	
     },	
+    {
+      "rel": "related",	
+      "href": "https://argo.ucsd.edu/data/data-from-gdacs/",	
+      "type": "text/html",	
+      "title": "Documentation"	
+    },
     {	
       "rel": "items",	
       "href": "mqtts://broker.metoffice.gov.uk",	
