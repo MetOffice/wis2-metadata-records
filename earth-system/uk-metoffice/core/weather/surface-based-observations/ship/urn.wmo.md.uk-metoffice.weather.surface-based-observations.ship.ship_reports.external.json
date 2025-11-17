@@ -23,7 +23,7 @@
   },  
   "properties": {
     "title": "Ship reports",	
-    "description": "Marine ship reports",
+    "description": "Ship reports data refers to meteorological and oceanographic observations collected from vessels, primarily through the Voluntary Observing Ships (VOS) program and other automated ship-based systems. Typical manual parameters include: Air temperature and pressure, Wind speed and direction, Sea surface temperature, Wave height and period, Visibility and cloud cover, Precipitation and weather phenomena. Automatic systems will report: pressure, air temperature and relative humidity. Data are typically formatted in BUFR.",
     "contacts": [	
       {	
         "identifier": "MO",

@@ -23,7 +23,7 @@
   },  
   "properties": {
     "title": "Moored Buoys",	
-    "description": "Surface Marine observations from moored buoys",	
+    "description": "Moored buoys are anchored oceanographic platforms equipped with meteorological and ocean sensors that collect high-resolution, continuous observations at fixed locations. Typical parameters include: Air and sea surface temperature, Atmospheric pressure, Wind speed and direction, Relative humidity, basic and spectral wave parameters, GPS position. Data are shared globally in BUFR message format.",	
     "contacts": [	
       {	
         "identifier": "MO",
