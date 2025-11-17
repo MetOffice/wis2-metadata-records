@@ -17,9 +17,9 @@
  "time": {	
     "interval": [	
         "T00Z",
-        "T00Z"
+        "T23Z"
     ],	
-    "resolution": "PT0H"
+    "resolution": "PT6H"
   },
  "additionalExtents": {
     "vertical": {
@@ -47,17 +47,25 @@
       "description": "Includes percentile for:Total precipitation (surface): 25th, 50th, 75th, maximum; Total solid precipitation (surface): 25th, 50th, 75th, maximum; Temperature (2 m, 850 hPa): min, 25th, 50th, 75th, maximum; Wind speed (10 m, 850 hPa, 250 hPa): min, 25th, 50th, 75th, maximum; Wind gust (10 m): min, 25th, 50th, maximum; CAPE (surface): 25th, 50th, 75th, maximum; Wind shear magnitude (vector difference between 250 hPa and 850 hPa, and between 700 hPa and 925 hPa): 25th, 50th, 75th, maximum; Total cloud cover (surface): min, 25th, 50th, 75th, maximum."
     },
     "temporal": {
+      "interval": [
+        ["T00Z","T00Z"],
+        ["T06Z","T06Z"],
+        ["T12Z","T12Z"],
+        ["T18Z","T18Z"]
+      ],
       "values": [
         "T00Z",
-        "T12Z"
+        "T06Z",
+        "T12Z",
+        "T18Z"
       ],
     "trs": "http://www.opengis.net/def/trs/ISO-8601",
-    "description": "Runs occur twice daily at times T00Z and T12Z."	
+    "description": "Runs four times daily at times T00Z, T06Z, T12Z and T18Z for the analysis data (T+00)."	
    }
   },
   "properties": {
-    "title": "Met Office Global Ensemble NWP (Analysis data)",	
-    "description": "Met Office medium-range global ensemble forecast (analysis data). 0.5-degree x 0.5-degree regular lat./lon. grid; runs 00/12 UTC; various parameters, various levels, and various thresholds.",	
+    "title": "Met Office Global Ensemble Prediction System (Analysis data)",	
+    "description": "The Met Office Global Ensemble Prediction System (MOGREPS-G) provides probabilistic forecasts for the entire globe up to ten days ahead, supporting uncertainty quantification in Numerical Weather Prediction (NWP). This ensemble system runs multiple configurations of the Unified Model, the flagship NWP model used for both weather and climate applications. Forecasts are generated four times daily at 00:00, 06:00, 12:00 and 18:00 UTC.",	
     "contacts": [	
       {	
         "identifier": "MO",
@@ -101,17 +109,7 @@
        "forecast",
        "medium range",
        "ensemble",
-       "global",
-       "Geopotential height",
-       "1.5m Temperature",
-       "10m Wind speed",
-       "Mean sea-level pressure (MSLP)",
-       "10m Wind gust",
-       "Total precipitation",
-       "Total solid precipitation",
-       "Convective Available Potential Energy (CAPE)",
-       "Total cloud cover",
-       "Wind shear"
+       "global"
      ],	
     "themes": [	
       {	
@@ -199,13 +197,110 @@
           }
         ],	
         "scheme": "http://codes.wmo.int/grib2/codeflag/4.2"
-      }
-    ],	
+      },
+      {
+        "concepts": [
+        {
+            "id": "CAPE_surface",
+            "title": "Convective available potential energy",
+            "url": "http://vocab.nerc.ac.uk/standard_name/atmosphere_convective_available_potential_energy_wrt_surface/"
+        },
+        {
+            "id": "cloud_amount_of_total_cloud",
+            "title": "Total Cloud Cover",
+            "url": "http://vocab.nerc.ac.uk/standard_name/cloud_area_fraction/"
+        },
+        {
+            "id": "height_ASL_on_pressure_levels",
+            "title": "Geopotential Height",
+            "url": "https://vocab.nerc.ac.uk/standard_name/geopotential_height/"
+        },
+        {
+            "id": "pressure_at_mean_sea_level",
+            "title": "Pressure reduced to MSL",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_pressure_at_sea_level/"
+        },
+        {
+            "id": "temperature_at_screen_level",
+            "title": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_temperature/"
+        },
+        {
+            "id": "temperature_on_pressure_levels",
+            "title": "Temperature (on pressure levels)",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_temperature/"
+        },
+        {
+            "id": "wind_gust_at_10m",
+            "title": "Wind Speed (gust)",
+            "url": "http://vocab.nerc.ac.uk/standard_name/wind_speed_of_gust/"
+        },
+        {
+            "id": "precipitation_accumulation-PT03H",
+            "title": "Total Precipitation rate (PT03H)",
+            "url": "https://vocab.nerc.ac.uk/standard_name/precipitation_amount/"
+        },
+        {
+            "id": "snowfall_accumulation-PT03H",
+            "title": "Large Scale Snowfall Rate Water Equivalent - PT03H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/lwe_thickness_of_snowfall_amount/"
+        },
+        {
+            "id": "temperature_at_screen_level_max-PT03H",
+            "title": "Temperature (max) - PT03H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_temperature/"
+        },
+        {
+            "id": "temperature_at_screen_level_min-PT03H",
+            "title": "Temperature (min) - PT03H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_temperature/"
+        },
+        {
+            "id": "wind_gust_at_10m_max-PT03H",
+            "title": "Wind Speed (gust) - max - PT03H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/wind_speed_of_gust/"
+        },
+        {
+            "id": "precipitation_accumulation-PT06H",
+            "title": "Total Precipitation rate (PT06H)",
+            "url": "https://vocab.nerc.ac.uk/standard_name/precipitation_amount/"
+        },
+        {
+            "id": "snowfall_accumulation-PT06H",
+            "title": "Large Scale Snowfall Rate Water Equivalent - PT06H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/lwe_thickness_of_snowfall_amount/"
+        },
+        {
+            "id": "temperature_at_screen_level_max-PT06H",
+            "title": "Temperature (max) - PT06H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_temperature/"
+        },
+        {
+            "id": "temperature_at_screen_level_min-PT06H",
+            "title": "Temperature (min) - PT06H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_temperature/"
+        },
+        {
+            "id": "wind_gust_at_10m_max-PT06H",
+            "title": "Wind Speed (gust) - max - PT06H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/wind_speed_of_gust/"
+        }
+      ],
+      "scheme": "https://vocab.nerc.ac.uk/standard_name/"
+     }
+    ],
     "created": "2025-08-26T15:00:00Z",
     "updated": "2025-08-25T15:00:00Z",
     "wmo:dataPolicy": "core",
     "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021)).",
-    "type": "dataset"
+    "type": "dataset",
+    "formats": [
+      {
+       "name":"grib2",
+       "mediaType":"application/grib",
+       "version": "2"
+      }
+    ]
   },	
   "links": [
     {	
@@ -213,13 +308,26 @@
       "href": "https://www.metoffice.gov.uk/research/weather/ensemble-forecasting/mogreps",	
       "type": "text/html",	
       "title": "Documentation"
-    },	
+    },
     {	
       "rel": "items",	
       "href": "mqtts://broker.metoffice.gov.uk",	
       "channel": "origin/a/wis2/uk-metoffice-wmc/data/core/weather/prediction/analysis/medium-range/probabilistic/global",	
       "type": "application/geo+json",	
-      "title": "Data notifications broker"	
-    }	
+      "title": "Data notifications broker",
+      "properties": {
+         "diagnostic": {
+            "type": "string",
+            "title": "Diagnostic",
+            "example": "cloud_amount_of_total_cloud"
+         },
+         "model_run_hour": {
+            "type": "string",
+            "title": "Model run hour",
+            "enum": ["00", "06", "12", "18"],
+            "example": "00"
+         }
+      }
+    }
   ]	
 }	

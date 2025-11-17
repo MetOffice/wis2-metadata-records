@@ -1,8 +1,8 @@
 {	
-  "id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.analysis.global",	
+  "id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.analysis.global",
   "type": "Feature",
   "conformsTo": [	
-    "http://wis.wmo.int/spec/wcmp/2/conf/core"	
+    "http://wis.wmo.int/spec/wcmp/2/conf/core"
   ],  
   "geometry": {
       "type": "Polygon",
@@ -15,11 +15,8 @@
      ]]
  },
  "time": {	
-    "interval": [	
-        "T00Z",
-        "T00Z"
-    ],	
-    "resolution": "PT0H"
+    "interval": ["T00Z", "T23Z"],
+    "resolution": "PT6H"
   },
  "additionalExtents": {
     "vertical": {
@@ -31,17 +28,25 @@
       "description": "Pressure levels and height vary by parameter: Geopotential height, temperature, and relative humidity are available at 850, 500, 250, and 200 hPa; wind zonal (u) and wind meridional velocity (v) are available at 925, 850, 700, 500, 250, and 200 hPa; Surface level parameters: MSLP, 1.5-m temperature, 1.5-m min and max temperatures, 1.5-m dewpoint, 10-m u, 10-m v, 10-m wind gust, total precipitation, total solid precipitation, CAPE, total precipitable water, and total cloud cover."
     },		
     "temporal": {
+      "interval": [
+        ["T00Z","T00Z"],
+        ["T06Z","T06Z"],
+        ["T12Z","T12Z"],
+        ["T18Z","T18Z"]
+      ],
       "values": [
         "T00Z",
-        "T12Z"
+        "T06Z",
+        "T12Z",
+        "T18Z"
       ],
     "trs": "http://www.opengis.net/def/trs/ISO-8601",
-    "description": "Runs occur twice daily at times T00Z and T12Z."	
+    "description": "Runs four times daily at times T00Z, T06Z, T12Z and T18Z for the analysis data (T+00)."	
    }
   },
   "properties": {
-    "title": "Met Office Global Deterministic NWP (Analysis data)",	
-    "description": "Met Office global deterministic forecast (analysis data). 0.5-degree x 0.5-degree regular lat./lon. Grid; runs 00/12 UTC; various parameters and various levels.",	
+    "title": "Met Office Global Deterministic 10km (Analysis data)",	
+    "description": "Met Office global deterministic forecast (analysis data). Runs 00/06/12/18 UTC; various parameters and various levels.",	
     "contacts": [	
       {	
         "identifier": "MO",
@@ -85,25 +90,7 @@
        "analysis",
        "medium-range",
        "deterministic",
-       "global",
-       "Geopotential height",
-       "Temperature",
-       "Wind zonal velocity (u)",
-       "Wind meridional velocity (v)",
-       "Relative humidity",
-       "Mean sea-level pressure (MSLP)",
-       "1.5m Temperature",
-       "1.5m min temperature",
-       "1.5m max temperature",
-       "1.5m Dewpoint temperature",
-       "10m Wind zonal velocity (u)",
-       "10m Wind meridional velocity (v)",
-       "10m Wind gust",
-       "Total precipitation",
-       "Total solid precipitation",
-       "Convective Available Potential Energy (CAPE)",
-       "Total precipitable water",
-       "Total cloud cover"
+       "global"
      ],	
     "themes": [	
       {	
@@ -226,13 +213,119 @@
           }
         ],	
         "scheme": "http://codes.wmo.int/grib2/codeflag/4.2"
-      }
+      },
+      {
+        "concepts": [
+        {
+            "id": "CAPE_surface",
+            "title": "Convective available potential energy",
+            "url": "http://vocab.nerc.ac.uk/standard_name/atmosphere_convective_available_potential_energy_wrt_surface/"
+        },
+        {
+            "id": "cloud_amount_of_total_cloud",
+            "title": "Total Cloud Cover",
+            "url": "http://vocab.nerc.ac.uk/standard_name/cloud_area_fraction/"
+        },
+        {
+            "id": "height_ASL_on_pressure_levels",
+            "title": "Geopotential Height",
+            "url": "https://vocab.nerc.ac.uk/standard_name/geopotential_height/"
+        },
+        {
+            "id": "pressure_at_mean_sea_level",
+            "title": "Pressure reduced to MSL",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_pressure_at_sea_level/"
+        },
+        {
+            "id": "relative_humidity_on_pressure_levels",
+            "title": "Relative Humidity (on pressure levels)",
+            "url": "http://vocab.nerc.ac.uk/standard_name/relative_humidity/"
+        },
+        {
+            "id": "temperature_at_screen_level",
+            "title": "Temperature",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_temperature/"
+        },
+        {
+            "id": "temperature_of_dew_point_at_screen_level",
+            "title": "Dewpoint Temperature",            
+            "url": "http://vocab.nerc.ac.uk/standard_name/dew_point_temperature/"
+        },
+        {
+            "id": "temperature_on_pressure_levels",
+            "title": "Temperature (on pressure levels)",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_temperature/"
+        },
+        {
+            "id": "wind_gust_at_10m",
+            "title": "Wind Speed (gust)",
+            "url": "http://vocab.nerc.ac.uk/standard_name/wind_speed_of_gust/"
+        },
+        {
+            "id": "precipitation_accumulation-PT03H",
+            "title": "Total Precipitation rate (PT03H)",
+            "url": "https://vocab.nerc.ac.uk/standard_name/precipitation_amount/"
+        },
+        {
+            "id": "snowfall_accumulation-PT03H",
+            "title": "Large Scale Snowfall Rate Water Equivalent - PT03H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/lwe_thickness_of_snowfall_amount/"
+        },
+        {
+            "id": "temperature_at_screen_level_max-PT03H",
+            "title": "Temperature (max) - PT03H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_temperature/"
+        },
+        {
+            "id": "temperature_at_screen_level_min-PT03H",
+            "title": "Temperature (min) - PT03H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_temperature/"
+        },
+        {
+            "id": "wind_gust_at_10m_max-PT03H",
+            "title": "Wind Speed (gust) - max - PT03H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/wind_speed_of_gust/"
+        },
+        {
+            "id": "precipitation_accumulation-PT06H",
+            "title": "Total Precipitation rate (PT06H)",
+            "url": "https://vocab.nerc.ac.uk/standard_name/precipitation_amount/"
+        },
+        {
+            "id": "snowfall_accumulation-PT06H",
+            "title": "Large Scale Snowfall Rate Water Equivalent - PT06H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/lwe_thickness_of_snowfall_amount/"
+        },
+        {
+            "id": "temperature_at_screen_level_max-PT06H",
+            "title": "Temperature (max) - PT06H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_temperature/"
+        },
+        {
+            "id": "temperature_at_screen_level_min-PT06H",
+            "title": "Temperature (min) - PT06H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_temperature/"
+        },
+        {
+            "id": "wind_gust_at_10m_max-PT06H",
+            "title": "Wind Speed (gust) - max - PT06H",
+            "url": "http://vocab.nerc.ac.uk/standard_name/wind_speed_of_gust/"
+        }
+      ],
+      "scheme": "https://vocab.nerc.ac.uk/standard_name/"
+     }
     ],	
     "created": "2025-08-26T15:00:00Z",
-    "updated": "2025-08-25T15:00:00Z",
     "wmo:dataPolicy": "core",
     "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021)).",
-    "type": "dataset"
+    "type": "dataset",
+    "formats": [
+      {
+       "name":"grib2",
+       "mediaType":"application/grib",
+       "version": "2"
+      }
+    ]
   },	
   "links": [
     {	
@@ -240,13 +333,26 @@
       "href": "https://www.metoffice.gov.uk/research/approach/modelling-systems/unified-model/weather-forecasting",	
       "type": "text/html",	
       "title": "Documentation"	
-    },	
+    },
     {	
       "rel": "items",	
       "href": "mqtts://broker.metoffice.gov.uk",	
-      "channel": "origin/a/wis2/uk-metoffice-wmc/data/core/weather/prediction/analysis/medium-range/deterministic/global",	
+      "channel": "origin/a/wis2/uk-metoffice-wmc/data/core/weather/prediction/analysis/medium-range/deterministic/global",
       "type": "application/geo+json",	
-      "title": "Data notifications broker"	
+      "title": "Data notifications broker",
+      "properties": {
+         "diagnostic": {
+            "type": "string",
+            "title": "Diagnostic",
+            "example": "cloud_amount_of_total_cloud"
+         },
+         "model_run_hour": {
+            "type": "string",
+            "title": "Model run hour",
+            "enum": ["00", "12"],
+            "example": "00"
+         }
+      }
     }	
   ]	
-}	
+}
