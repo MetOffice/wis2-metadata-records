@@ -72,7 +72,7 @@
   },  
   "properties": {
     "title": "Intermediate, Main hour, and Non-routine Synops",	
-    "description": "UK Intermediate, Main hour, and Non-routine Synops",	
+    "description": "SYNOP (Surface Synoptic Observations) are standardized meteorological reports from fixed land-based observation stations. In the UK, these observations are collected by automated weather stations. Each SYNOP report typically includes: Air temperature and dew point, Atmospheric pressure, Wind speed and direction, Cloud cover and types, Visibility and weather phenomena, Precipitation and sunshine duration, Snow depth and state of ground (at designated hours). Reports are issued hourly from UK stations. BUFR is the primary format for object services, offering full WMO-compliant encoding.",	
     "contacts": [	
       {	
         "identifier": "MO",
