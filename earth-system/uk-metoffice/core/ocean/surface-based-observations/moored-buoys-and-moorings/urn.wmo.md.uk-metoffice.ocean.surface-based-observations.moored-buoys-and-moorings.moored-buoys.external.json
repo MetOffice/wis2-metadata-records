@@ -1,5 +1,5 @@
 {	
-  "id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.ship.ship-reports",	
+  "id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.moored-buoys-and-moorings.moored-buoys",	
   "type": "Feature",
   "conformsTo": [	
     "http://wis.wmo.int/spec/wcmp/2/conf/core"	
@@ -7,11 +7,11 @@
  "geometry": {
       "type": "Polygon",
       "coordinates": [[             
-        [-180, 90],
-        [180, 90],
-        [180, -90],
-        [-180, -90],
-        [-180, 90]
+        [-80.0, 0.0],
+        [20.0, 0.0],
+        [20.0, 70.0],
+        [-80.0, 70.0],
+        [-80.0, 0.0] 
      ]]
  },
  "time": {	
@@ -22,8 +22,8 @@
     "resolution": "PT1H"	
   },  
   "properties": {
-    "title": "Ship reports",	
-    "description": "Ship reports data refers to meteorological and oceanographic observations collected from vessels, primarily through the Voluntary Observing Ships (VOS) program and other automated ship-based systems. Typical manual parameters include: Air temperature and pressure, Wind speed and direction, Sea surface temperature, Wave height and period, Visibility and cloud cover, Precipitation and weather phenomena. Automatic systems will report: pressure, air temperature and relative humidity. Data are typically formatted in BUFR.",
+    "title": "Moored Buoys",	
+    "description": "Moored buoys are anchored oceanographic platforms equipped with meteorological and ocean sensors that collect high-resolution, continuous observations at fixed locations. Typical parameters include: Air and sea surface temperature, Atmospheric pressure, Wind speed and direction, Relative humidity, basic and spectral wave parameters, GPS position. Data are shared globally in BUFR message format.",	
     "contacts": [	
       {	
         "identifier": "MO",
@@ -62,14 +62,12 @@
       }
     ],			
     "keywords": [	
-       "weather",	
+       "ocean",	
        "surface based observations",	
-       "marine",
-       "voluntary observing ships",
-       "VOS programme",
-       "ships",
-       "ship observations",
-       "automated ships"	
+       "moored buoys",
+       "buoys",
+       "light vessels",
+       "platforms"	
      ],	
     "themes": [	
       {	
@@ -96,26 +94,26 @@
       {	
         "concepts": [	
           {	
-            "id": "weather",	
-            "title": "Weather",	
-            "url": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline/weather"	
+            "id": "ocean",	
+            "title": "Ocean",	
+            "url": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline/ocean"	
           }	
         ],	
         "scheme": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline"
        },
        {	
-        "concepts": [
-          {
-            "id": "22",
-            "title": "BUFR/CREX Oceanographic elements",
-            "url": "http://codes.wmo.int/bufr4/b/22"
-          }
-        ],
+        "concepts": [	
+          {	
+            "id": "22",	
+            "title": "BUFR/CREX Oceanographic elements",	
+            "url": "http://codes.wmo.int/bufr4/b/22"	
+          }	
+        ],	
         "scheme": "http://codes.wmo.int/bufr4/b"
-      }
-    ],
-    "created": "2025-06-27T15:00:00Z",
-    "updated": "2025-06-27T15:00:00Z",
+      }	
+    ],	
+    "created": "2025-06-27T15:00:00Z",	
+    "updated": "2025-06-27T15:00:00Z",			
     "wmo:dataPolicy": "core",
     "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021)).",
     "type": "dataset",
@@ -124,7 +122,7 @@
       "title": "dataset is in 24/7 operation",
       "url": "https://www.metoffice.gov.uk/services/data/business-data/observational"
     }
-  },
+  },	
   "links": [
     {	
       "rel": "related",	
@@ -135,9 +133,10 @@
     {	
       "rel": "items",	
       "href": "mqtts://broker.metoffice.gov.uk",	
-      "channel": "origin/a/wis2/uk-metoffice/data/core/weather/surface-based-observations/ship",	
+      "channel": "origin/a/wis2/uk-metoffice/data/core/ocean/surface-based-observations/moored-buoys-and-moorings",	
       "type": "application/geo+json",	
       "title": "Data notifications broker"	
     }	
   ]	
+
 }	

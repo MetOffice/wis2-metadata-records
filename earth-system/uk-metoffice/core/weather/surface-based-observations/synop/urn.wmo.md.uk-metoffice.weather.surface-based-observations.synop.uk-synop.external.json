@@ -1,5 +1,5 @@
 {	
-  "id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.synop.uk_synop",	
+  "id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.synop.uk-synop",	
   "type": "Feature",
   "conformsTo": [	
     "http://wis.wmo.int/spec/wcmp/2/conf/core"	
@@ -71,8 +71,8 @@
     "resolution": "PT1H"	
   },  
   "properties": {
-    "title": "Intermediate, Main hour, and Non-routine Synops",	
-    "description": "SYNOP (Surface Synoptic Observations) are standardized meteorological reports from fixed land-based observation stations. In the UK, these observations are collected by automated weather stations. Each SYNOP report typically includes: Air temperature and dew point, Atmospheric pressure, Wind speed and direction, Cloud cover and types, Visibility and weather phenomena, Precipitation and sunshine duration, Snow depth and state of ground (at designated hours). Reports are issued hourly from UK stations. BUFR is the primary format for object services, offering full WMO-compliant encoding.",	
+    "title": "Hourly synoptic observations from fixed-land stations (SYNOP) - UK",	
+    "description": "Hourly land surface observations (SYNOP) are standardized meteorological reports which form a component of the Global Basic Observing Network (GBON). In the UK, these observations are collected by automated weather stations. Each report should include as a minimum: air temperature, dew point, atmospheric pressure, wind speed and direction, precipitation and snow depth, with some UK stations also reporting cloud cover and types, visibility, weather phenomena, sunshine duration, and state of ground. Reports are in BUFR format.",	
     "contacts": [	
       {	
         "identifier": "MO",
@@ -185,4 +185,6 @@
       "title": "Data notifications broker"	
     }	
   ]	
+
 }	
+
