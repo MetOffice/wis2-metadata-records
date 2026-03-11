@@ -1,19 +1,48 @@
 {	
-  "id": "urn:wmo:md:eu-eumetnet-amdar:weather.surface-based-observations.amdar",	
+  "id": "urn:wmo:md:eu-eumetnet-gnss:weather.surface-based-observations.gnss-total-delay",	
   "type": "Feature",
   "conformsTo": [	
     "http://wis.wmo.int/spec/wcmp/2/conf/core"	
   ],  
-  "geometry": {
-      "type": "Polygon",
-      "coordinates": [[             
-        [-180, 90],
-        [180,  90],
-        [180, -90],
-        [-180,-90],
-        [-180, 90]
-     ]]
- },
+  "geometry": { 
+
+        "type": "MultiPolygon", 
+
+        "coordinates": [[ 
+       [ 
+         [-70, 10], 
+
+         [40, 10], 
+
+         [40, 90], 
+
+         [-70, 90], 
+
+         [-70, 10] 
+       ], 
+       [ 
+         [ 113, -10], 
+
+         [ 154, -10], 
+
+         [ 154, -44], 
+
+         [ 113, -44], 
+
+         [ 113, -10] 
+       ], 
+       [ 
+         [ 73, 54], 
+
+         [ 135, 54], 
+
+         [ 135, 18], 
+
+         [ 73, 18], 
+
+         [ 73, 54] 
+       ]] 
+ ]},
  "time": {	
     "interval": [	
         "T00Z",	
@@ -22,9 +51,8 @@
     "resolution": "PT1H"	
   },  
   "properties": {
-    "title": "Aircraft Meteorological Data Relay",	
-    "alias": "AMDAR data",
-    "description": "Meteorological observations (temperature, wind and humidity) from civil aircraft. In-flight measurements and derived airport vertical profiles.",	
+    "title": "Vertically integrated water vapour data",	
+    "description": "Vertical integrated water vapour derived from GNSS sensors operated by national geodetic agencies.",	
     "contacts": [	
       {	
         "identifier": "MO",
@@ -64,11 +92,10 @@
     ],			
     "keywords": [	
        "weather",	
-       "aircraft-based observations",	
-       "amdar",
-       "temperature",
-       "wind",
-       "humidity"
+       "surface-based observations",	
+       "Water vapour",
+       "integrated water vapour",
+       "gnss"	
      ],	
     "themes": [	
       {	
@@ -105,31 +132,16 @@
        {	
         "concepts": [	
           {	
-            "id": "12-001",	
-            "title": "Temperature",	
-            "url": "http://codes.wmo.int/bufr4/b/12/001"
-          },
-          {	
-            "id": "11-001",	
-            "title": "Wind direction",	
-            "url": "http://codes.wmo.int/bufr4/b/11/001"
-          },	
-          {	
-            "id": "11-002",	
-            "title": "Wind direction",	
-            "url": "http://codes.wmo.int/bufr4/b/11/002"
-          },
-          {	
-            "id": "13-002",	
-            "title": "Mixing ratio",	
-            "url": "http://codes.wmo.int/bufr4/b/13/002"	
+            "id": "031",	
+            "title": "Vertically integrated liquid-water content",	
+            "url": "http://codes.wmo.int/bufr4/b/21/031"	
           }
         ],	
         "scheme": "http://codes.wmo.int/bufr4/b"
-      }
+      }	
     ],	
-    "created": "2026-02-04T14:00:00Z",	
-    "updated": "2026-02-04T14:00:00Z",		
+    "created": "2025-05-06T14:00:00Z",	
+    "updated": "2025-05-06T14:00:00Z",		
     "wmo:dataPolicy": "core",
     "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021))",
     "type": "dataset",
@@ -149,30 +161,16 @@
   "links": [	
     {	
       "rel": "related",	
-      "href": "https://www.eumetnet.eu/observations/aircraft-based-observations/",	
+      "href": "https://www.eumetnet.eu/observations/gnss-water-vapour-observations/",	
       "type": "text/html",	
       "title": "Documentation"	
     },	
     {	
       "rel": "items",	
       "href": "mqtts://broker.metoffice.gov.uk",	
-      "channel": "origin/a/wis2/eu-eumetnet-amdar/data/core/weather/surface-based-observations",	
+      "channel": "origin/a/wis2/eu-eumetnet-gnss/data/core/weather/surface-based-observations",	
       "type": "application/geo+json",	
-      "title": "Data notifications broker",
-      "properties":{
-          "diagnostic": {
-               "type":"string",
-               "title":"Diagnostic",
-               "enum": ["Temperature","Wind direction","Wind speed","Mixing ratio"],
-               "description":"The diagnostic filter parameter is the title property of the concept object within the themes array, where the scheme is 'http://codes.wmo.int/bufr4/b'."
-            }
-          }
-    },
-    {	
-      "rel": "service",	
-      "href": "https://metoffice.sharepoint.com/:u:/r/sites/ODSService/SitePages/Our-Data-Catalogue.aspx?csf=1&web=1&e=givi0e",	
-      "type": "text/html",	
-      "title": "Observation Data Supply Service"	
+      "title": "Data notifications broker"	
     }
   ]	
 

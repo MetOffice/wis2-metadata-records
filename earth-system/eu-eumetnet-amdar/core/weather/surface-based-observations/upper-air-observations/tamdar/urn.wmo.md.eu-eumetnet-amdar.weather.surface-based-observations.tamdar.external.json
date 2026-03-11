@@ -153,7 +153,13 @@
       "href": "https://flyht.com/weather-sensors/tamdar/",	
       "type": "text/html",	
       "title": "Documentation"	
-    },	
+    },
+    {	
+      "rel": "related",	
+      "href": "https://www.eumetnet.eu/observations/aircraft-based-observations/",	
+      "type": "text/html",	
+      "title": "Documentation"	
+    },
     {	
       "rel": "items",	
       "href": "mqtts://broker.metoffice.gov.uk",	
@@ -168,14 +174,10 @@
                "description":"The diagnostic filter parameter is the title property of the concept object within the themes array, where the scheme is 'http://codes.wmo.int/bufr4/b'."
             }
       }
-    },
-    {	
-      "rel": "service",	
-      "href": "https://metoffice.sharepoint.com/:u:/r/sites/ODSService/SitePages/Our-Data-Catalogue.aspx?csf=1&web=1&e=0rcXhP",	
-      "type": "text/html",	
-      "title": "Observation Data Supply Service"	
-    }	
+    }
   ]
 }	
+
+
 
 

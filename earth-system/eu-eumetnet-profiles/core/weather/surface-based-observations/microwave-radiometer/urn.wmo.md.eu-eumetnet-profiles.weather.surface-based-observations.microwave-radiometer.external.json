@@ -188,13 +188,8 @@
                "description":"The diagnostic filter parameter is the title property of the concept object within the themes array'."
             }
        }
-    },
-    {	
-      "rel": "service",	
-      "href": "https://metoffice.sharepoint.com/:u:/r/sites/ODSService/SitePages/Our-Data-Catalogue.aspx?csf=1&web=1&e=0rcXhP",	
-      "type": "text/html",	
-      "title": "Observation Data Supply Service"	
-    }	
+    }
   ]	
 
 }	
+
