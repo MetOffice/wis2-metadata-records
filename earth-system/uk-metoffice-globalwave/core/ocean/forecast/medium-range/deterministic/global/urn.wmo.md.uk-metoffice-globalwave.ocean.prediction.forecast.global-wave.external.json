@@ -1,0 +1,596 @@
+{
+    "id": "urn:wmo:md:uk-metoffice-globalwave:ocean.prediction.forecast.global-wave",
+    "type": "Feature",
+    "conformsTo": [
+        "http://wis.wmo.int/spec/wcmp/2/conf/core"
+    ],
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [             
+          [
+            -180,
+            90
+          ],
+          [
+            180,
+            90
+          ],
+          [
+            180,
+            -90
+          ],
+          [
+            -180,
+            -90
+          ],
+          [
+            -180,
+            90
+          ] 
+     ]]
+ },
+    "time":{
+      "interval":[
+         "T00Z",
+         "T23Z"
+      ],
+      "resolution":"PT6H" 	
+  },
+ "additionalExtents":{
+      "vertical":{
+         "interval":[
+            [
+               "0",
+               "10"
+            ]
+         ],
+         "values":[
+            "0",
+            "10"
+         ],
+         "vrs":"VERTCS[\"WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PARAMETER[\"Vertical_Shift\",0.0],PARAMETER[\"Direction\",1.0],UNIT[\"Meter\",1.0]],AXIS[\"Up\",UP]",
+         "description":"Vertical extent defined by geometric height levels in meters above the WGS84 ellipsoid, ranging from 0m to 10m. These levels are commonly used for atmospheric and environmental datasets."
+      },
+      "temporal":{
+         "interval":[
+            [
+               "T00Z",
+               "PT144H"
+            ],
+            [
+               "T06Z",
+               "PT144H"
+            ],
+            [
+               "T12Z",
+               "PT144H"
+            ],
+            [
+               "T18Z",
+               "PT144H"
+            ]
+         ],
+         "values":[
+            "R49/T00Z/PT1H",
+            "R24/PT51H/PT3H",
+            "R4/PT126H/PT6H"
+         ],
+         "resolution":"PT1H",
+         "trs":"http://www.opengis.net/def/trs/ISO-8601",
+         "description":"Forecast are produced four times daily. For the WIPPS GRIB2 products, each run covers 6 days (144 hours) with 1-hourly timesteps up to 48h, 3-hourly timesteps from 51h to 120h, then 6-hourly timesteps thereafter. For the netCDF product, the longer runs are at T00Z and T12Z, and shorter runs are at T06Z and T18Z. The longer runs cover 6 days (144 hours), with 1-hourly timesteps. The shortened runs provide forecasts up to 66 hours, with hourly timesteps."
+      }
+   },
+    "properties": {
+        "title": "Met Office Global Wave",	
+    "description": "Met Office wave models are run to support marine safety and coastal hazards applications. The Global Wave model provides forecasts of sea-state characteristics based on predictions of two-dimensional (frequency-direction) wave spectra. The Met Office Global Wave model covers the global ocean from 80S to 80N. The Global Wave model is on a 25km spatial resolution at 50N. Hourly data are updated four times daily for forecast lead times up to 6 days ahead. Data are representative of wave conditions on scales of hours and 10s of kilometres and primarily recommended for use in water depths greater than 10m. Forcing for the wave model uses Met Office global Numerical Weather Prediction and it is recommended that Met Office data are used consistently when forecasting ocean and weather conditions across the marine boundary.",
+        "contacts": [
+            {
+                "identifier": "MO",
+                "name": "Met Office",
+                "organization": "Met Office",
+                "phones": [
+                    {
+                        "value": "+443301350000"
+                    }
+                ],
+                "emails": [
+                    {
+                        "value": "servicedesk@metoffice.gov.uk"
+                    }
+                ],
+                "addresses": [
+                    {
+                        "deliveryPoint": [
+                            "FitzRoy Road"
+                        ],
+                        "name": "Met Office",
+                        "city": "Exeter",
+                        "administrativeArea": "Devon",
+                        "postalCode": "EX1 3PB",
+                        "country": "United Kingdom"
+                    }
+                ],
+                "links": [
+                    {
+                        "rel": "canonical",
+                        "type": "text/html",
+                        "href": "https://www.metoffice.gov.uk/about-us/contact"
+                    }
+                ],
+                "roles": [
+                    "host",
+                    "producer"
+                ]
+            }
+        ],
+        "keywords": [
+            "ocean",	
+       "prediction",	
+       "forecast",
+       "medium range",
+       "deterministic",
+       "global",
+       "wave"
+        ],
+        "themes": [
+            {
+                "concepts": [
+                    {
+                        "id": "Application-ready",
+                        "title": "dataReadiness",
+                        "url": "http://reference.metoffice.gov.uk/DataCategories/data-readiness/Application-ready"
+                    }
+                ],
+                "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-readiness"
+            },
+            {
+                "concepts": [
+                    {
+                        "id": "PredictionsPostProcessed",
+                        "title": "dataType",
+                        "description": "Predictions and Post Processed data are defined as data that infers a full coverage of the state of the physical, chemical and/or biological environment within a given domain and specific context. This includes data assimilation analysis, projections and predictions to different times and post processed outputs derived from predictions. Data are produced using automated production typically in large volumes controlled by algorithms and data science. Prediction data can take many forms, but they always have a Geospatial Feature, Coverage or native grids on creation. They may be packaged differently for supply for customer requirement.",
+                        "url": "http://reference.metoffice.gov.uk/DataCategories/data-types/PredictionsPostProcessed"
+                    }
+                ],
+                "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-types"
+            },
+            {	
+        "concepts": [	
+          {	
+            "id": "ocean",	
+            "title": "Ocean",	
+            "url": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline/ocean"	
+          }	
+        ],	
+        "scheme": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline"
+       },
+            {
+         "concepts": [
+           {
+             "id": "sea_surface_primary_swell_wave_directional_spread",
+             "title": "primary_swell_wave_directional_spread",
+             "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_primary_swell_wave_directional_spread/"
+            },               
+            {
+              "id": "sea_surface_secondary_swell_wave_directional_spread",
+              "title": "secondary_swell_wave_directional_spread",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_secondary_swell_wave_directional_spread/"
+            },
+            {
+              "id": "sea_surface_tertiary_swell_wave_directional_spread",
+              "title": "tertiary_swell_wave_directional_spread",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_tertiary_swell_wave_directional_spread/"
+            },  
+            {
+              "id": "sea_surface_primary_swell_wave_from_direction",
+              "title": "primary_swell_wave_mean_direction",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_primary_swell_wave_from_direction/"
+            },
+            {
+              "id": "sea_surface_secondary_swell_wave_from_direction",
+              "title": "secondary_swell_wave_mean_direction",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_secondary_swell_wave_from_direction/"
+            },
+            {
+              "id": "sea_surface_tertiary_swell_wave_from_direction",
+              "title": "tertiary_swell_wave_mean_direction",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_tertiary_swell_wave_from_direction/"
+            },
+            {
+              "id": "sea_surface_primary_swell_wave_energy_at_variance_spectral_density_maximum",
+              "title": "primary_swell_wave_peak_energy",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_primary_swell_wave_energy_at_variance_spectral_density_maximum/"
+            },
+            {
+              "id": "sea_surface_secondary_swell_wave_energy_at_variance_spectral_density_maximum",
+              "title": "secondary_swell_wave_peak_energy",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_secondary_swell_wave_energy_at_variance_spectral_density_maximum/"
+            },
+            {
+              "id": "sea_surface_tertiary_swell_wave_energy_at_variance_spectral_density_maximum",
+              "title": "tertiary_swell_wave_peak_energy",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_tertiary_swell_wave_energy_at_variance_spectral_density_maximum/"
+            },  
+            {
+              "id": "sea_surface_primary_swell_wave_period_at_variance_spectral_density_maximum",
+              "title": "primary_swell_wave_peak_period",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_primary_swell_wave_period_at_variance_spectral_density_maximum/"
+            },
+            {
+              "id": "sea_surface_secondary_swell_wave_period_at_variance_spectral_density_maximum",
+              "title": "secondary_swell_wave_peak_period",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_secondary_swell_wave_period_at_variance_spectral_density_maximum/"
+            },
+            {
+              "id": "sea_surface_tertiary_swell_wave_period_at_variance_spectral_density_maximum",
+              "title": "tertiary_swell_wave_peak_period",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_tertiary_swell_wave_period_at_variance_spectral_density_maximum/"
+            },  
+            {
+              "id": "sea_surface_primary_swell_wave_significant_height",
+              "title": "primary_swell_wave_significant_height",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_primary_swell_wave_significant_height/"
+            },
+            {
+              "id": "sea_surface_secondary_swell_wave_significant_height",
+              "title": "secondary_swell_wave_significant_height",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_secondary_swell_wave_significant_height/"
+            },
+            {
+              "id": "sea_surface_tertiary_swell_wave_significant_height",
+              "title": "tertiary_swell_wave_significant_height",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_tertiary_swell_wave_significant_height/"
+            },
+            {
+              "id": "wind_from_direction",
+              "title": "wave_grid_10m_wind",
+              "url": "https://vocab.nerc.ac.uk/standard_name/wind_speed/,https://vocab.nerc.ac.uk/standard_name/wind_from_direction"
+            },
+            {
+              "id": "sea_floor_depth_below_geoid",
+              "title": "wave_grid_depth",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_floor_depth_below_geoid/"
+            },
+            {
+                "id": "sea_surface_wave_mean_from_direction",
+                "title": "wave_mean_direction",
+                "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_wave_mean_from_direction/"
+            },
+            {
+              "id": "sea_surface_wave_period_at_variance_spectral_density_maximum",
+              "title": "wave_peak_period",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_wave_period_at_variance_spectral_density_maximum/"
+            },
+            {
+              "id": "sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment",
+              "title": "wave_period_tm01",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment/"
+            },
+            {
+              "id": "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment",
+              "title": "wave_period_tm02",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment/"
+            },
+            {
+              "id": "sea_surface_wave_significant_height",
+              "title": "wave_significant_height",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_wave_significant_height/"
+            },
+            {
+              "id": "sea_surface_wind_wave_directional_spread",
+              "title": "wind_wave_directional_spread",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_wind_wave_directional_spread/"
+            },
+            {
+              "id": "sea_surface_wind_wave_to_direction",
+              "title": "wind_wave_mean_direction",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_wind_wave_to_direction/"
+            },
+            {
+              "id": "sea_surface_wind_wave_period_at_variance_spectral_density_maximum",
+              "title": "wind_wave_peak_period",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_wind_wave_period_at_variance_spectral_density_maximum/"
+            },
+            {
+              "id": "sea_surface_wind_wave_variance_spectral_density_maximum",
+              "title": "wind_wave_peak_energy",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_wind_wave_variance_spectral_density_maximum/"
+            },
+            {
+              "id": "sea_surface_wind_wave_significant_height",
+              "title": "wind_wave_significant_height",
+              "url": "https://vocab.nerc.ac.uk/standard_name/sea_surface_wind_wave_significant_height/"
+            }
+          ],
+          "scheme": "https://vocab.nerc.ac.uk/standard_name/"
+       },
+       {
+          "concepts": [
+            {
+              "id": "10-0-56",
+              "title": "primary_swell_wave_directional_spread",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-56"
+            },
+            {
+              "id": "10-0-57",
+              "title": "secondary_swell_wave_directional_spread",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-57"
+            },
+            {
+              "id": "10-0-58",
+              "title": "tertiary_swell_wave_directional_spread",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-58"
+            },  
+            {
+              "id": "10-0-53",
+              "title": "primary_swell_wave_mean_direction",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-53"
+            },
+            {
+              "id": "10-0-54",
+              "title": "secondary_swell_wave_mean_direction",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-54"
+            },
+            {
+              "id": "10-0-58",
+              "title": "tertiary_swell_wave_mean_direction",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-58"
+            }, 
+            {
+              "id": "10-0-65",
+              "title": "primary_swell_wave_peak_period",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-65"
+            },
+            {
+              "id": "10-0-66",
+              "title": "secondary_swell_wave_peak_period",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-66"
+            },
+            {
+              "id": "10-0-67",
+              "title": "tertiary_swell_wave_peak_period",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-67"
+            },  
+            {
+            "id": "10-0-47",
+            "title": "primary_swell_wave_significant_height",
+            "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-47"
+            },
+            {
+              "id": "10-0-48",
+              "title": "secondary_swell_wave_significant_height",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-48"
+            },
+            {
+              "id": "10-0-49",
+              "title": "tertiary_swell_wave_significant_height",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-49"
+            },
+            {
+              "id": "10-4-14",
+              "title": "wave_grid_depth",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-4-14"
+            },
+            {
+              "id": "10-0-14",
+              "title": "wave_mean_direction",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-14"
+            },
+            {
+              "id": "10-0-34",
+              "title": "wave_peak_period",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-34"
+            },
+            {
+              "id": "10-0-15",
+              "title": "wave_period_tm01",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-15"
+            },
+            {
+              "id": "10-0-28",
+              "title": "wave_period_tm02",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-28"
+            },
+            {
+              "id": "10-0-3",
+              "title": "wave_significant_height",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-3"
+            },
+            {
+              "id": "10-0-32",
+              "title": "wind_wave_directional_spread",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-32"
+            },
+            {
+              "id": "10-0-4",
+              "title": "wind_wave_mean_direction",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-4"
+            },
+            {
+              "id": "10-0-35",
+              "title": "wind_wave_peak_period",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-35"
+            },
+            {
+               "id": "10-0-5",
+              "title": "wind_wave_significant_height",
+              "url": "https://codes.wmo.int/grib2/codeflag/4.2/10-0-5"
+            }
+          ],
+         "scheme": "https://codes.wmo.int/grib2/codeflag/4.2"
+       },
+       {
+         "concepts": [
+           {
+            "id": "10-0-202",
+            "title": "primary_swell_wave_peak_energy",
+            "url": "https://reference.metoffice.gov.uk/grib/grib2/mo--74/4.2/10-0-202"
+          },
+          {
+            "id": "10-0-203",
+            "title": "secondary_swell_wave_peak_energy",
+            "url": "https://reference.metoffice.gov.uk/grib/grib2/mo--74/4.2/10-0-203"
+          },
+          {
+            "id": "10-0-204",
+            "title": "tertiary_swell_wave_peak_energy",
+            "url": "https://reference.metoffice.gov.uk/grib/grib2/mo--74/4.2/10-0-204"
+          },
+          {
+            "id": "0-2-194",
+            "title": "wave_grid_10m_wind",
+            "url": "https://reference.metoffice.gov.uk/grib/grib2/mo--74/4.2/0-2-194"
+          },
+          {  
+            "id": "0-2-195",
+            "title": "wave_grid_10m_wind",
+            "url": "https://reference.metoffice.gov.uk/grib/grib2/mo--74/4.2/0-2-195"
+          },
+          {  
+           "id": "10-0-201",
+            "title": "wind_wave_peak_energy",
+            "url": "https://reference.metoffice.gov.uk/grib/grib2/mo--74/4.2/10-0-201"
+          }
+         ],
+         "scheme": "https://reference.metoffice.gov.uk/grib/grib2/mo--74/4.2"
+       }
+    ],
+        "created": "2026-01-20T15:00:00Z",
+        "updated": "2026-01-20T15:00:00Z",
+        "wmo:dataPolicy": "core",
+        "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021)).",
+        "type": "dataset",
+        "formats": [
+            {
+                "name": "grib2",
+                "mediaType": "application/grib",
+                "version": "2"
+            }
+        ]
+    },
+    "links": [
+        {	
+      "rel": "related",	
+      "href": "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/data/marine-global-wave-documentation.pdf",	
+      "type": "text/html",	
+      "title": "Documentation"	
+    },
+    {	
+      "rel": "related",	
+      "href": "https://digital.nmla.metoffice.gov.uk/IO_f501a829-0210-4340-83a6-0bfe1a82f462/",	
+      "type": "text/html",	
+      "title": "Documentation"	
+    },
+        {
+         "rel":"items",
+         "href":"mqtts://broker.metoffice.gov.uk",
+         "channel":"origin/a/wis2/uk-metoffice-globalwave/data/core/ocean/experimental/prediction/forecast/medium-range/deterministic/global",
+         "type":"application/geo+json",
+         "title":"Data notifications broker",
+         "properties":{
+            "diagnostic":{
+               "type":"string",
+               "example": "wind_wave_peak_period",
+               "title":"Diagnostic",
+               "description":"The diagnostic filter parameter is the title property of the concept object within the themes array, where the scheme is 'http://codes.wmo.int/grib2/codeflag/4.2'."
+            },
+            "timestep":{
+               "type":"string",
+               "title":"Timestep",
+               "enum":[
+                  "T+00",
+                  "T+01",
+                  "T+02",
+                  "T+03",
+                  "T+04",
+                  "T+05",
+                  "T+06",
+                  "T+07",
+                  "T+08",
+                  "T+09",
+                  "T+10",
+                  "T+11",
+                  "T+12",
+                  "T+13",
+                  "T+14",
+                  "T+15",
+                  "T+16",
+                  "T+17",
+                  "T+18",
+                  "T+19",
+                  "T+20",
+                  "T+21",
+                  "T+22",
+                  "T+23",
+                  "T+24",
+                  "T+25",
+                  "T+26",
+                  "T+27",
+                  "T+28",
+                  "T+29",
+                  "T+30",
+                  "T+31",
+                  "T+32",
+                  "T+33",
+                  "T+34",
+                  "T+35",
+                  "T+36",
+                  "T+37",
+                  "T+38",
+                  "T+39",
+                  "T+40",
+                  "T+41",
+                  "T+42",
+                  "T+43",
+                  "T+44",
+                  "T+45",
+                  "T+46",
+                  "T+47",
+                  "T+48",
+                  "T+51",
+                  "T+54",
+                  "T+57",
+                  "T+60",
+                  "T+63",
+                  "T+66",
+                  "T+69",
+                  "T+72",
+                  "T+75",
+                  "T+78",
+                  "T+81",
+                  "T+84",
+                  "T+87",
+                  "T+90",
+                  "T+93",
+                  "T+96",
+                  "T+99",
+                  "T+102",
+                  "T+105",
+                  "T+108",
+                  "T+111",
+                  "T+114",
+                  "T+117",
+                  "T+120",
+                  "T+126",
+                  "T+132",
+                  "T+138",
+                  "T+144"
+               ],
+               "example":"T+06"
+            },
+            "model_run_hour":{
+               "type":"string",
+               "title":"Model run hour",
+               "enum":[
+                  "00",
+                  "06",
+                  "12",
+                  "18"
+               ],
+               "example":"00"
+            }
+         }
+      }
+    ]
+}
