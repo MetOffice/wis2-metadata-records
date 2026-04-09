@@ -1,0 +1,223 @@
+{	
+  "id": "urn:wmo:md:uk-metoffice:weather.upper-air-observations.lightning.uk-leela",	
+  "type": "Feature",
+  "conformsTo": [	
+    "http://wis.wmo.int/spec/wcmp/2/conf/core"
+  ],  
+  "geometry": {
+      "type": "Polygon",
+      "coordinates": [[           
+          [-12.0, 49.0],
+          [4.25, 49.0],
+          [4.25, 62.5],
+          [-12.0, 62.5],
+          [-12.0, 49.0]
+     ]]
+ },
+ "time": {	
+    "interval": [	
+        "T00Z",	
+        "T23Z"	
+    ],	
+    "resolution": "PT1M"	
+  },  
+  "properties": {
+    "title": "UK Lightning Electromagnetic Emission Location by Arrival time difference",	
+	"alias": "LEELA",
+    "description": "LEELA (Lightning Electromagnetic Emission Location by ATD) is a lightning location system developed by the Met Office. It uses the arrival time difference (ATD) technique to locate lightning using a distributed network of sensors. ATD involves precisely measuring the time that the electromagnetic (EM) wave created by lightning arrives at a sensor. The later a signal from a given lightning discharge arrives at a sensor, the further it must have travelled to get there. By comparing the arrival times of the signal from a discharge between the network of sensors, the original source location of the discharge can be determined.",	
+    "contacts": [	
+      {	
+        "identifier": "MO",
+        "name": "Met Office",	
+        "organization": "Met Office",	
+        "phones": [	
+          {	
+            "value": "+443301350000"	
+          }	
+        ],	
+        "emails": [	
+          {	
+            "value": "servicedesk@metoffice.gov.uk"	
+          }	
+        ],	
+        "addresses": [	
+          {	
+            "deliveryPoint": [	
+              "FitzRoy Road"	
+            ],	
+            "name": "Met Office",	
+            "city": "Exeter",	
+            "administrativeArea": "Devon",
+            "postalCode": "EX1 3PB",	
+            "country": "United Kingdom"	
+          }
+        ],	
+        "links": [	
+          {	
+            "rel": "canonical",	
+            "type": "text/html",	
+            "href": "https://www.metoffice.gov.uk/about-us/contact"	
+          }	
+        ],	
+        "roles": ["host","producer"]
+      }
+    ],			
+    "keywords": [	
+       "weather",	
+       "surface-based observations",	
+       "lightning",
+       "leela"	
+     ],
+    "themes": [	
+      {	
+        "concepts": [	
+          {	
+            "id": "Application-ready",	
+            "title": "dataReadiness",
+            "url": "http://reference.metoffice.gov.uk/DataCategories/data-readiness/Application-ready"	
+          }	
+        ],	
+        "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-readiness"
+      },
+      {	
+        "concepts": [	
+          {	
+            "id": "Observations",	
+            "title": "dataType",
+            "description": "Observations data are defined as measurements of the physical, chemical and/or biological environment, measured at a specific time in the past.  They may be direct or indirect measurements and may be feature or coverage data.  In order to be valid, observations data must carry geospatial and temporal metadata as well as variable values (or equivalent such as pixel values for a faster coverage).",	
+            "url": "http://reference.metoffice.gov.uk/DataCategories/data-types/Observations"	
+          }	
+        ],	
+        "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-types"
+      },
+      {	
+        "concepts": [	
+          {	
+            "id": "weather",	
+            "title": "Weather",	
+            "url": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline/weather"	
+          }	
+        ],	
+        "scheme": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline"
+       },
+       {	
+        "concepts": [	
+          {	
+            "id": "04-003",	
+            "title": "Day",	
+            "url": "http://codes.wmo.int/bufr4/b/04/003"	
+          },
+          {	
+            "id": "04-002",	
+            "title": "Month",	
+            "url": "http://codes.wmo.int/bufr4/b/04/002"	
+          },
+          {	
+            "id": "04-001",	
+            "title": "Year",	
+            "url": "http://codes.wmo.int/bufr4/b/04/001"	
+          },
+          {	
+            "id": "04-004",	
+            "title": "Hour",	
+            "url": "http://codes.wmo.int/bufr4/b/04/004"	
+          },
+          {	
+            "id": "04-005",	
+            "title": "Minute",	
+            "url": "http://codes.wmo.int/bufr4/b/04/005"	
+          },
+          {	
+            "id": "04-007",	
+            "title": "Seconds within a minute (microsecond accuracy)",	
+            "url": "http://codes.wmo.int/bufr4/b/04/007"
+          },	
+          {	
+            "id": "25-063",	
+            "title": "Central processor or system identifier",	
+            "url": "http://codes.wmo.int/bufr4/b/25/063"	
+          },
+	  {	
+            "id": "06-001",	
+            "title": "Longitude (high accuracy)",	
+            "url": "http://codes.wmo.int/bufr4/b/06/001"	
+          },
+          {	
+            "id": "05-001",	
+            "title": "Latitude (high accuracy)",	
+            "url": "http://codes.wmo.int/bufr4/b/05/001"	
+          },
+          {	
+            "id": "20-118",	
+            "title": "Lightning detection error",	
+            "url": "http://codes.wmo.int/bufr4/b/20/118"	
+          },
+          {	
+            "id": "20-111",	
+            "title": "x-axis error ellipse major component",	
+            "url": "http://codes.wmo.int/bufr4/b/20/111"	
+          },
+          {	
+            "id": "20-112",	
+            "title": "y-axis error ellipse minor component",	
+            "url": "http://codes.wmo.int/bufr4/b/20/112"	
+          },
+          {	
+            "id": "20-113",	
+            "title": "z-axis error ellipse component",	
+            "url": "http://codes.wmo.int/bufr4/b/20/113"	
+          },
+          {	
+            "id": "20-114",	
+            "title": "Angle of x-axis in error ellipse",	
+            "url": "http://codes.wmo.int/bufr4/b/20/114"	
+          },
+          {	
+            "id": "20-115",	
+            "title": "Angle of z-axis in error ellipse",	
+            "url": "http://codes.wmo.int/bufr4/b/20/115"	
+          }
+        ],	
+        "scheme": "http://codes.wmo.int/bufr4/b"
+      }
+    ],
+    "created": "2025-08-12T15:00:00Z",
+    "updated": "2025-08-12T15:00:00Z",
+    "wmo:dataPolicy": "core",
+    "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021)).",
+    "type": "dataset",
+    "formats": [
+     {
+        "name":"bufr",
+        "mediaType":"application/bufr",
+        "version": 4
+     },
+     {
+      
+        "name": "CSV (gzipped)",
+        "type": "text/csv",
+        "compression": "gzip"
+     }
+    ],
+    "status": {
+      "id": "operational",
+      "title": "dataset is in 24/7 operation",
+      "url": "https://www.metoffice.gov.uk/services/data/business-data/observational"
+    }    
+  },	
+  "links": [
+    {	
+      "rel": "related",	
+      "href": "https://www.metoffice.gov.uk/blog/2025/how-the-met-office-monitors-lightning",	
+      "type": "text/html",	
+      "title": "Documentation"	
+    },
+    {	
+      "rel": "items",	
+      "href": "mqtts://broker.metoffice.gov.uk",	
+      "channel": "origin/a/wis2/uk-metoffice/data/core/weather/experimental/upper-air-observations/lightning",	
+      "type": "application/geo+json",	
+      "title": "Data notifications broker"	
+    }
+  ]	
+}	
