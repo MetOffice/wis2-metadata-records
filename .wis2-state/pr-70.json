@@ -1,0 +1,65 @@
+[
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/upper-air-observations/lightning/urn.wmo.md.uk-metoffice.weather.upper-air-observations.lightning.uk-leela.external.json",
+    "status": "ADD",
+    "rel": "canonical",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "a50e0a2b-356a-4e42-8baf-4e3163f0ecad",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -12.0,
+              49.0
+            ],
+            [
+              4.25,
+              49.0
+            ],
+            [
+              4.25,
+              62.5
+            ],
+            [
+              -12.0,
+              62.5
+            ],
+            [
+              -12.0,
+              49.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-04-09T13:22:21Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.upper-air-observations.lightning.uk-leela",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.upper-air-observations.lightning.uk-leela",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "IjxJCQFXU5+DzhUkQCy4edVVDKKvNRRoCdYEG8iX1hACSOBdRVHCxBk5l0B0QYlTrDrCuzxi3Z1DVlTOBLT0XA=="
+        },
+        "datetime": "2025-08-12T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/upper-air-observations/lightning/urn.wmo.md.uk-metoffice.weather.upper-air-observations.lightning.uk-leela.external.json",
+          "rel": "canonical",
+          "type": "application/json",
+          "length": 7862
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
