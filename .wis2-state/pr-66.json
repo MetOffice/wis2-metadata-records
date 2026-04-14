@@ -12,7 +12,7 @@
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "pubtime": "2026-04-14T12:30:58Z",
+        "pubtime": "2026-04-14T13:56:58Z",
         "data_id": "urn:wmo:md:eu-eumetnet-gnss:weather.surface-based-observations.gnss-total-delay",
         "metadata_id": "urn:wmo:md:eu-eumetnet-gnss:weather.surface-based-observations.gnss-total-delay",
         "cache": true,
@@ -25,7 +25,7 @@
       "links": [
         {
           "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/eu-eumetnet-gnss/core/weather/surface-based-observations/gnss-total-delay/urn.wmo.md.eu-eumetnet-gnss.weather.surface-based-observations.gnss-total-delay.external.json",
-          "rel": "update",
+          "rel": "canonical",
           "type": "application/json",
           "length": 5195
         }
