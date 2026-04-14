@@ -1,0 +1,111 @@
+[
+  {
+    "rel_path": "earth-system/eu-eumetnet-gnss/core/weather/surface-based-observations/gnss-total-delay/urn.wmo.md.eu-eumetnet-gnss.weather.surface-based-observations.gnss-total-delay.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/eu-eumetnet-gnss/metadata",
+    "notification": {
+      "id": "cc5957dd-e1ed-4f7c-b4ab-8a1f59d4a58d",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -70,
+                10
+              ],
+              [
+                40,
+                10
+              ],
+              [
+                40,
+                90
+              ],
+              [
+                -70,
+                90
+              ],
+              [
+                -70,
+                10
+              ]
+            ],
+            [
+              [
+                113,
+                -10
+              ],
+              [
+                154,
+                -10
+              ],
+              [
+                154,
+                -44
+              ],
+              [
+                113,
+                -44
+              ],
+              [
+                113,
+                -10
+              ]
+            ],
+            [
+              [
+                73,
+                54
+              ],
+              [
+                135,
+                54
+              ],
+              [
+                135,
+                18
+              ],
+              [
+                73,
+                18
+              ],
+              [
+                73,
+                54
+              ]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-04-14T12:30:58Z",
+        "data_id": "urn:wmo:md:eu-eumetnet-gnss:weather.surface-based-observations.gnss-total-delay",
+        "metadata_id": "urn:wmo:md:eu-eumetnet-gnss:weather.surface-based-observations.gnss-total-delay",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "zGgpNuJsKnPWv+ElW3uCLaCPKzHfv52FcHPnnnhSCXaKxSQco9M8VnGhfbc2Y+aASR+6jFcnEsRWl5RRiBSwKg=="
+        },
+        "datetime": "2025-05-06T14:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/eu-eumetnet-gnss/core/weather/surface-based-observations/gnss-total-delay/urn.wmo.md.eu-eumetnet-gnss.weather.surface-based-observations.gnss-total-delay.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 5195
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
