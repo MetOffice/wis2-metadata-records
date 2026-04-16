@@ -5,14 +5,14 @@
     "rel": "canonical",
     "topic": "origin/a/wis2/eu-eumetnet-gnss/metadata",
     "notification": {
-      "id": "cc5957dd-e1ed-4f7c-b4ab-8a1f59d4a58d",
+      "id": "cd5957dd-e1ed-4f7c-b4ab-8a1f59d4a58d",
       "conformsTo": [
         "http://wis.wmo.int/spec/wnm/1/conf/core"
       ],
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "pubtime": "2026-04-14T13:56:58Z",
+        "pubtime": "2026-04-16T10:16:58Z",
         "data_id": "urn:wmo:md:eu-eumetnet-gnss:weather.surface-based-observations.gnss-total-delay",
         "metadata_id": "urn:wmo:md:eu-eumetnet-gnss:weather.surface-based-observations.gnss-total-delay",
         "cache": true,
