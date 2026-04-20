@@ -1,0 +1,39 @@
+[
+  {
+    "rel_path": "earth-system/uk-bas/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-bas.weather.surface-based-observations.sonde-ascent.external.json",
+    "status": "DEL",
+    "rel": "deletion",
+    "topic": "origin/a/wis2/uk-bas/metadata",
+    "notification": {
+      "id": "de7aee75-2460-4a3d-96a2-19b8fc417b29",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-04-20T12:33:13Z",
+        "data_id": "urn:wmo:md:uk-bas:weather.surface-based-observations.sonde-ascent",
+        "metadata_id": "urn:wmo:md:uk-bas:weather.surface-based-observations.sonde-ascent",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "XkvGjMNhQzNk/DSF33x+R20Kvei3g6UTJnETeG4KslD6/qSBQ1MyMB0afSZ0QOCUfZWznnfu9ChFkdwNy+aaGw=="
+        },
+        "datetime": "2025-08-12T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-bas/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-bas.weather.surface-based-observations.sonde-ascent.external.json",
+          "rel": "deletion",
+          "type": "application/json",
+          "length": 7667
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
