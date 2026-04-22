@@ -1,0 +1,128 @@
+[
+  {
+    "rel_path": "earth-system/uk-metoffice-globalwave/core/ocean/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-globalwave.ocean.prediction.analysis.global-wave.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice-globalwave/metadata",
+    "notification": {
+      "id": "c575fd16-3771-475a-a95a-ca7e6170138c",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-04-22T13:21:31Z",
+        "data_id": "urn:wmo:md:uk-metoffice-globalwave:ocean.prediction.analysis.global-wave",
+        "metadata_id": "urn:wmo:md:uk-metoffice-globalwave:ocean.prediction.analysis.global-wave",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "bYCCVrL6jKsNqGOJm0Efpcdz14p4J12d0AAp8VpPhjNpGyyrl/Kf6aS5qfIIGSpl35I3TJz7rg6nQHrWjDjxAA=="
+        },
+        "datetime": "2026-01-20T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice-globalwave/core/ocean/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-globalwave.ocean.prediction.analysis.global-wave.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 21853
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice-globalwave/core/ocean/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-globalwave.ocean.prediction.forecast.global-wave.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice-globalwave/metadata",
+    "notification": {
+      "id": "395a33b5-3339-48e7-98c2-80493558a96e",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-04-22T13:21:31Z",
+        "data_id": "urn:wmo:md:uk-metoffice-globalwave:ocean.prediction.forecast.global-wave",
+        "metadata_id": "urn:wmo:md:uk-metoffice-globalwave:ocean.prediction.forecast.global-wave",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "NgFpHCNy0WPedtt3RPGmF8UKYhnf7VYA6pVrm5cLoyprUHhUYuMm+E6eMPOE1M9U5inROfx68hi7kJLRJP7oKA=="
+        },
+        "datetime": "2026-01-20T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice-globalwave/core/ocean/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-globalwave.ocean.prediction.forecast.global-wave.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 24822
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
