@@ -1,8 +1,8 @@
 [
   {
     "rel_path": "earth-system/uk-metoffice-globalwave/core/ocean/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-globalwave.ocean.prediction.analysis.global-wave.external.json",
-    "status": "MOD",
-    "rel": "update",
+    "status": "ADD",
+    "rel": "canonical",
     "topic": "origin/a/wis2/uk-metoffice-globalwave/metadata",
     "notification": {
       "id": "c575fd16-3771-475a-a95a-ca7e6170138c",
@@ -64,8 +64,8 @@
   },
   {
     "rel_path": "earth-system/uk-metoffice-globalwave/core/ocean/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-globalwave.ocean.prediction.forecast.global-wave.external.json",
-    "status": "MOD",
-    "rel": "update",
+    "status": "ADD",
+    "rel": "canonical",
     "topic": "origin/a/wis2/uk-metoffice-globalwave/metadata",
     "notification": {
       "id": "395a33b5-3339-48e7-98c2-80493558a96e",
