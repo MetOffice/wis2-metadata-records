@@ -51,7 +51,7 @@
       "links": [
         {
           "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice-globalwave/core/ocean/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-globalwave.ocean.prediction.analysis.global-wave.external.json",
-          "rel": "update",
+          "rel": "canonical",
           "type": "application/json",
           "length": 21853
         }
@@ -114,7 +114,7 @@
       "links": [
         {
           "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice-globalwave/core/ocean/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-globalwave.ocean.prediction.forecast.global-wave.external.json",
-          "rel": "update",
+          "rel": "canonical",
           "type": "application/json",
           "length": 24822
         }
