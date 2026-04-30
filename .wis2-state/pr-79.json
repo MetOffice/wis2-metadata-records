@@ -1,0 +1,65 @@
+[
+  {
+    "rel_path": "earth-system/eu-eumetnet-amdar/core/weather/surface-based-observations/upper-air-observations/tamdar/urn.wmo.md.eu-eumetnet-amdar.weather.surface-based-observations.tamdar.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/eu-eumetnet-amdar/metadata",
+    "notification": {
+      "id": "6ec1a1ca-1980-4ab6-9e56-dc0004724a56",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-04-30T13:33:58Z",
+        "data_id": "urn:wmo:md:eu-eumetnet-amdar:weather.surface-based-observations.tamdar",
+        "metadata_id": "urn:wmo:md:eu-eumetnet-amdar:weather.surface-based-observations.tamdar",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "Ezih3HY6ZfifbBf9ZxIbE8I8FUMjEnyBah3e2lr+VK30MQEUAHf1WWI0lq/Q7Ho+H46hsj4hP8ZQNu3NpHe0qg=="
+        },
+        "datetime": "2025-05-06T14:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/eu-eumetnet-amdar/core/weather/surface-based-observations/upper-air-observations/tamdar/urn.wmo.md.eu-eumetnet-amdar.weather.surface-based-observations.tamdar.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 5982
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
