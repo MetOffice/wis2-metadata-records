@@ -1,0 +1,65 @@
+[
+  {
+    "rel_path": "earth-system/eu-eumetnet-amdar/core/weather/surface-based-observations/upper-air-observations/amdar/urn.wmo.md.eu-eumetnet-amdar.weather.surface-based-observations.amdar.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/eu-eumetnet-amdar/metadata",
+    "notification": {
+      "id": "60d7d071-c59f-4c80-8961-dd8c25f37d12",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-04-30T13:31:20Z",
+        "data_id": "urn:wmo:md:eu-eumetnet-amdar:weather.surface-based-observations.amdar",
+        "metadata_id": "urn:wmo:md:eu-eumetnet-amdar:weather.surface-based-observations.amdar",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "cY1JAHVAqwXZqD02aLtSkhCe7Of6Jn7qpGZJ/tr3fKqNXz6q8qohSV/LJn+XajoJq26xh6Rk66FP/3p6xCRhnw=="
+        },
+        "datetime": "2026-02-04T14:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/eu-eumetnet-amdar/core/weather/surface-based-observations/upper-air-observations/amdar/urn.wmo.md.eu-eumetnet-amdar.weather.surface-based-observations.amdar.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 6041
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
