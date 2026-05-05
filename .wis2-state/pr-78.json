@@ -1,0 +1,113 @@
+[
+  {
+    "rel_path": "earth-system/eu-eumetnet-profiles/core/weather/surface-based-observations/microwave-radiometer/urn.wmo.md.eu-eumetnet-profiles.weather.surface-based-observations.microwave-radiometer.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/eu-eumetnet-profiles/metadata",
+    "notification": {
+      "id": "04aa15af-4910-46ee-a511-a07e5827e525",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-05-05T10:24:37Z",
+        "data_id": "urn:wmo:md:eu-eumetnet-profiles:weather.surface-based-observations.microwave-radiometer",
+        "metadata_id": "urn:wmo:md:eu-eumetnet-profiles:weather.surface-based-observations.microwave-radiometer",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "VzWMCRXp7ZJZd1rpiLPdFeKbr/AqcUnNZj/CKe+4wsDhalGmydcy7iH4gVgoCT5aqj6++jfekc3BQq/YtARb7w=="
+        },
+        "datetime": "2026-02-04T14:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/eu-eumetnet-profiles/core/weather/surface-based-observations/microwave-radiometer/urn.wmo.md.eu-eumetnet-profiles.weather.surface-based-observations.microwave-radiometer.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 6282
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/eu-eumetnet-profiles/core/weather/surface-based-observations/lidar-and-ceilometer/urn.wmo.md.eu-eumetnet-profiles.weather.surface-based-observations.lidar-and-ceilometer.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/eu-eumetnet-profiles/metadata",
+    "notification": {
+      "id": "1b07a9cc-1372-4df4-81df-7880c6bafe7b",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-05-05T10:24:37Z",
+        "data_id": "urn:wmo:md:eu-eumetnet-profiles:weather.surface-based-observations.lidar-and-ceilometer",
+        "metadata_id": "urn:wmo:md:eu-eumetnet-profiles:weather.surface-based-observations.lidar-and-ceilometer",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "slASikKR/kTbG6iDzZkqxswXAFHWdg0ui0qaX4n+wXRpeEfZBZUVZcVPV1T14d4DwZhjJFgABoyhzOja9M6uoQ=="
+        },
+        "datetime": "2026-02-04T14:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/eu-eumetnet-profiles/core/weather/surface-based-observations/lidar-and-ceilometer/urn.wmo.md.eu-eumetnet-profiles.weather.surface-based-observations.lidar-and-ceilometer.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 7547
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/eu-eumetnet-profiles/core/weather/surface-based-observations/radar-wind-profiler/urn.wmo.md.eu-eumetnet-profiles.weather.surface-based-observations.radar-wind-profiler.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/eu-eumetnet-profiles/metadata",
+    "notification": {
+      "id": "184e60ce-4615-4646-b40d-1722ee1eaaac",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-05-05T10:24:37Z",
+        "data_id": "urn:wmo:md:eu-eumetnet-profiles:weather.surface-based-observations.radar-wind-profiler",
+        "metadata_id": "urn:wmo:md:eu-eumetnet-profiles:weather.surface-based-observations.radar-wind-profiler",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "srayG7BOsv3eRMxhwmObcBptry4FOgTF9Tc9P9KtZZjY9/9dAehwsmMUrRj/oKUyOxJPOd3Hb4iaA0pqLZgFSw=="
+        },
+        "datetime": "2026-02-05T11:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/eu-eumetnet-profiles/core/weather/surface-based-observations/radar-wind-profiler/urn.wmo.md.eu-eumetnet-profiles.weather.surface-based-observations.radar-wind-profiler.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 7728
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
