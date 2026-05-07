@@ -1,0 +1,65 @@
+[
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/prediction/forecast/medium-range/deterministic/trajectory/urn.wmo.md.uk-metoffice.weather.prediction.forecast.tc-guidance.external.json",
+    "status": "ADD",
+    "rel": "canonical",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "28c2feb9-bbb1-49ac-a0d2-2fdeea02e6ed",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-05-07T12:25:22Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.prediction.forecast.tc-guidance",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.prediction.forecast.tc-guidance",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "BV+6NOXGunOnmmaRA+jXRxQjtMZPN4S3iv8Teun/TykPFB2ZFDbERfpROVyonmXo0nQ3zDxTY5pJ9kwxENxSVA=="
+        },
+        "datetime": "2026-03-10T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/prediction/forecast/medium-range/deterministic/trajectory/urn.wmo.md.uk-metoffice.weather.prediction.forecast.tc-guidance.external.json",
+          "rel": "canonical",
+          "type": "application/json",
+          "length": 5999
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
