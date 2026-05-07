@@ -1,0 +1,65 @@
+[
+  {
+    "rel_path": "earth-system/uk-metoffice/recommended/weather/surface-based-observations/tropical-cyclone/urn.wmo.md.uk-metoffice.weather.surface-based-observations.tc-initial-data.external.json",
+    "status": "ADD",
+    "rel": "canonical",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "92c4df49-2635-4d79-8c1b-a5e557778858",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-05-07T12:28:13Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.tc-initial-data",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.tc-initial-data",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "7gcq1+uxPXl0bvT7AAbBLgE4J71C2O1kSRttBxS116kO7abx5j5mxfklaD2IirS6LxEpOCt2+qSCYBDqdKrcng=="
+        },
+        "datetime": "2026-03-10T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/recommended/weather/surface-based-observations/tropical-cyclone/urn.wmo.md.uk-metoffice.weather.surface-based-observations.tc-initial-data.external.json",
+          "rel": "canonical",
+          "type": "application/json",
+          "length": 6116
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
