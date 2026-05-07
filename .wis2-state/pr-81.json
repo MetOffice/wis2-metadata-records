@@ -1,0 +1,39 @@
+[
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/rainfall/urn.wmo.md.uk-metoffice.weather.surface-based-observations.rainfall.hourly-rainfall.external.json",
+    "status": "ADD",
+    "rel": "canonical",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "ef645a99-241f-4c93-9726-ed49e851c4ed",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-05-07T11:07:09Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.rainfall.hourly-rainfall",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.rainfall.hourly-rainfall",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "uML+mF1T4uaOVIHAvRPiO6Iw1pyJoZjGzKD15wKBPguQj/HEow1Z61aF07i0QilXiefpeWpb4BYwbOLlA2WgWg=="
+        },
+        "datetime": "2026-04-23T17:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/rainfall/urn.wmo.md.uk-metoffice.weather.surface-based-observations.rainfall.hourly-rainfall.external.json",
+          "rel": "canonical",
+          "type": "application/json",
+          "length": 5938
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
