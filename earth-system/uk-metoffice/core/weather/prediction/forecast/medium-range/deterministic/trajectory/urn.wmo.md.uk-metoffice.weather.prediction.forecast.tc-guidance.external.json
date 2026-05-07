@@ -1,0 +1,157 @@
+{
+    "id": "urn:wmo:md:uk-metoffice:weather.prediction.forecast.tc-guidance",
+    "type": "Feature",
+    "conformsTo": [
+        "http://wis.wmo.int/spec/wcmp/2/conf/core"
+    ],
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [[             
+        [-180, 90],
+        [ 180, 90],
+        [ 180,-90],
+        [-180,-90],
+        [-180, 90] 
+       ]]
+    },
+    "time": {	
+      "interval": ["T00Z", "T23Z"],
+      "resolution": "PT12H"
+    },
+    "additionalExtents": {
+        "temporal": {
+            "interval": [
+              ["T00Z","T00Z"],
+              ["T12Z","T12Z"]
+            ],
+            "resolution": "PT12H",
+            "trs": "http://www.opengis.net/def/trs/ISO-8601",
+            "description": "Tropical Cyclone forecast guidance are produced twice daily after the T00Z and T12Z Global model main runs."
+        }
+    },
+    "properties": {
+        "title": "Tropical Cyclone Forecast Guidance Messages",
+        "description": "The Met Office tropical cyclone forecast guidance messages. These messages are generated twice daily based on outputs from the Met Office global numerical weather prediction model. They provide indicative information on the forecast track of tropical cyclones, along with explicit forecasts of central pressure and maximum wind speed.",
+        "contacts": [
+            {
+                "identifier": "MO",
+                "name": "Met Office",
+                "organization": "Met Office",
+                "phones": [
+                    {
+                        "value": "+443301350000"
+                    }
+                ],
+                "emails": [
+                    {
+                        "value": "servicedesk@metoffice.gov.uk"
+                    }
+                ],
+                "addresses": [
+                    {
+                        "deliveryPoint": [
+                            "FitzRoy Road"
+                        ],
+                        "name": "Met Office",
+                        "city": "Exeter",
+                        "administrativeArea": "Devon",
+                        "postalCode": "EX1 3PB",
+                        "country": "United Kingdom"
+                    }
+                ],
+                "links": [
+                    {
+                        "rel": "canonical",
+                        "type": "text/html",
+                        "href": "https://www.metoffice.gov.uk/about-us/contact"
+                    }
+                ],
+                "roles": [
+                    "host",
+                    "producer"
+                ]
+            }
+        ],
+        "keywords": [	
+        "weather",	
+        "prediction",	
+        "forecast",
+        "medium range",
+        "deterministic",
+        "trajectory",
+        "tropical cyclone",
+        "guidance"
+     ],
+        "themes": [
+            {
+                "concepts": [
+                    {
+                        "id": "Application-ready",
+                        "title": "dataReadiness",
+                        "url": "http://reference.metoffice.gov.uk/DataCategories/data-readiness/Application-ready"
+                    }
+                ],
+                "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-readiness"
+            },
+            {
+                "concepts": [
+                 {	
+                    "id": "Observations",	
+                    "title": "dataType",
+                    "description": "Observations data are defined as measurements of the physical, chemical and/or biological environment, measured at a specific time in the past.  They may be direct or indirect measurements and may be feature or coverage data.  In order to be valid, observations data must carry geospatial and temporal metadata as well as variable values (or equivalent such as pixel values for a faster coverage).",	
+                    "url": "http://reference.metoffice.gov.uk/DataCategories/data-types/Observations"	
+                  }
+                ],
+                "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-types"
+            },
+            {
+                "concepts": [
+                    {
+                        "id": "weather",
+                        "title": "Weather",
+                        "url": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline/weather"
+                    }
+                ],
+                "scheme": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline"
+            }	            
+        ],
+        "created": "2026-03-10T15:00:00Z",
+        "updated": "2026-03-10T15:00:00Z",
+        "wmo:dataPolicy": "core",
+        "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021)).",
+        "type": "dataset",
+        "formats": [
+         {
+          "name": "text",
+          "mediaType": "text/plain"
+         }
+       ]
+    },
+    "links": [
+        {
+            "rel": "related",
+            "href": "https://www.metoffice.gov.uk/research/weather/tropical-cyclones/warnings",
+            "type": "text/html",
+            "title": "Documentation"
+        },
+        {	
+      "rel": "items",	
+      "href": "mqtts://broker.metoffice.gov.uk",	
+      "channel": "origin/a/wis2/uk-metoffice/data/core/weather/prediction/forecast/medium-range/deterministic/trajectory",
+      "type": "application/geo+json",	
+      "title": "Data notifications broker",
+      "properties": {
+         "model_run_hour": {
+            "type": "string",
+            "title": "Model run hour",
+            "enum": ["00", "12"],
+            "example": "00"
+         }
+      }
+    }
+  ]
+
+}
+
+
+
