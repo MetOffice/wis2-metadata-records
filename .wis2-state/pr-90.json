@@ -1,0 +1,65 @@
+[
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/weather-radar/urn.wmo.md.uk-metoffice.weather.surface-based-observations.weather-radar.surface-rainrate-estimate-uk-ie.external.json",
+    "status": "ADD",
+    "rel": "canonical",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "2fe29dd0-14d8-40ad-b540-e8ea4944d07c",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -11.74,
+              46.29
+            ],
+            [
+              -18.93,
+              61.76
+            ],
+            [
+              8.45,
+              62.95
+            ],
+            [
+              5.14,
+              46.97
+            ],
+            [
+              -11.74,
+              46.29
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-05-15T15:44:09Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.weather-radar.surface-rainrate-estimate-uk-ie",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.weather-radar.surface-rainrate-estimate-uk-ie",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "N4q6xIZ7MB/RLW89lt/BEBlTdPbBDcl/ERnF4FigShcXV119/TB6/4HaDOIiyjnu7gT0JvGcofki2I/hMbPVHw=="
+        },
+        "datetime": "2026-05-14T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/weather-radar/urn.wmo.md.uk-metoffice.weather.surface-based-observations.weather-radar.surface-rainrate-estimate-uk-ie.external.json",
+          "rel": "canonical",
+          "type": "application/json",
+          "length": 5836
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
