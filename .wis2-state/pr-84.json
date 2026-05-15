@@ -1,0 +1,45 @@
+[
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.temp.sonde-ascent-fk.external.json",
+    "status": "ADD",
+    "rel": "canonical",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "5f7ab164-87e9-419f-bfa3-2e38e9b5a691",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.447,
+          -51.822
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-05-15T14:36:29Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.temp.sonde-ascent-fk",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.temp.sonde-ascent-fk",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "GAxmxsOgFqdygfEmRwHhiaKeReA+r84uz3b8ymS1JmxktosCay8EA3p5NYGtckpozo3uDmCPG3oFPrr7Gmh0Pg=="
+        },
+        "datetime": "2025-08-12T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.temp.sonde-ascent-fk.external.json",
+          "rel": "canonical",
+          "type": "application/json",
+          "length": 7038
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
