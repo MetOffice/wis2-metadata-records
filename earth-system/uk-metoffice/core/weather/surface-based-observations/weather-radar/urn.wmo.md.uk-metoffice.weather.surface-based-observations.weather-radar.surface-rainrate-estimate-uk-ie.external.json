@@ -1,0 +1,163 @@
+{	
+  "id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.weather-radar.surface-rainrate-estimate-uk-ie",	
+  "type": "Feature",
+  "conformsTo": [	
+    "http://wis.wmo.int/spec/wcmp/2/conf/core"	
+  ],  
+  "geometry": {
+      "type": "Polygon",
+      "coordinates": [[    
+      [-11.74, 46.29],
+      [-18.93, 61.76],
+      [8.45, 62.95],
+      [5.14, 46.97],
+      [-11.74, 46.29] 
+     ]]
+ },
+ "time": {	
+    "interval": [	
+        "T00Z",	
+        "T23Z"	
+    ],	
+    "resolution": "PT15M"	
+  },  
+  "properties": {
+    "title": "UK and Ireland RADAR-derived instantaneous surface rain rate estimate composite (5km) ",	
+    "description": "The UK and Ireland RADAR-derived instantaneous surface rain rate estimate composite is a 'best data' Cartesian-gridded composite across UK and Ireland of RADAR-estimated surface precipitation rates with all corrections applied. It is produced by the Met Office's weather radar central processing system. This bulletin is in BUFR format, and the data have a resolution of 5km.",	
+    "contacts": [	
+      {	
+        "identifier": "MO",
+        "name": "UK Met Office weather desk",	
+        "organization": "Met Office",	
+        "phones": [	
+          {	
+            "value": "+443301350000"	
+          }	
+        ],	
+        "emails": [	
+          {	
+            "value": "servicedesk@metoffice.gov.uk"	
+          }	
+        ],	
+        "addresses": [	
+          {	
+            "deliveryPoint": [	
+              "FitzRoy Road"	
+            ],	
+            "name": "UK Met Office",	
+            "city": "Exeter",	
+            "administrativeArea": "Devon",
+            "postalCode": "EX1 3PB",	
+            "country": "United Kingdom"	
+          }
+        ],	
+        "links": [	
+          {	
+            "rel": "canonical",	
+            "type": "text/html",	
+            "href": "https://www.metoffice.gov.uk/about-us/contact"	
+          }	
+        ],	
+        "roles": ["host","producer"]
+      }
+    ],			
+    "keywords": [	
+       "weather",	
+       "surface based observations",	
+       "radar",
+       "rain rate",
+       "precipitation",
+       "composite",
+       "UK",
+       "Ireland"	
+     ],	
+    "themes": [	
+      {	
+        "concepts": [	
+          {	
+            "id": "Application-ready",	
+            "title": "ukmo:dataReadiness",
+            "description": "",	
+            "url": "http://reference.metoffice.gov.uk/DataCategories/data-readiness/Application-ready"	
+          }	
+        ],	
+        "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-readiness"
+      },
+      {	
+        "concepts": [	
+          {	
+            "id": "Observations",	
+            "title": "ukmo:dataType",
+            "description": "Observations data are defined as measurements of the physical, chemical and/or biological environment, measured at a specific time in the past.  They may be direct or indirect measurements and may be feature or coverage data.  In order to be valid, observations data must carry geospatial and temporal metadata as well as variable values (or equivalent such as pixel values for a faster coverage).",	
+            "url": "http://reference.metoffice.gov.uk/DataCategories/data-types/Observations"	
+          }	
+        ],	
+        "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-types"
+      },
+      {	
+        "concepts": [	
+          {	
+            "id": "weather",	
+            "title": "Weather",	
+            "url": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline/weather"	
+          }	
+        ],	
+        "scheme": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline"
+       },
+       {	
+        "concepts": [	
+          {	
+            "id": "21",	
+            "title": "BUFR/CREX Radar data",	
+            "url": "http://codes.wmo.int/bufr4/b/21"	
+          }	
+        ],	
+        "scheme": "http://codes.wmo.int/bufr4/b"
+      }	
+    ],	
+    "created": "2026-05-14T15:00:00Z",	
+    "updated": "2026-05-14T15:00:00Z",		
+    "wmo:dataPolicy": "core",
+    "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021)).",
+    "type": "dataset",
+    "formats": [
+     {
+      "name":"bufr",
+      "mediaType":"application/bufr",
+      "version": 4
+     }
+    ],
+    "status": {
+      "id": "operational",
+      "title": "dataset is in 24/7 operation",
+      "url": "https://www.metoffice.gov.uk/services/data/business-data/observational"
+    }
+  },	
+  "links": [
+    {	
+      "rel": "related",	
+      "href": "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/research/library-and-archive/library/publications/factsheets/factsheet_15-weather-radar-2020_2023.pdf",	
+      "type": "text/html",	
+      "title": "Radar Factsheet"	
+    },	
+    {	
+      "rel": "related",	
+      "href": "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/services/industry/water/radar_graphic.pdf",	
+      "type": "text/html",	
+      "title": "Weather Radar Coverage"	
+    },
+    {	
+      "rel": "related",	
+      "href": "https://www.metoffice.gov.uk/services/data/business-data/rainfall",	
+      "type": "text/html",	
+      "title": "Types of Radar"	
+    },
+    {	
+      "rel": "items",	
+      "href": "mqtts://broker.metoffice.gov.uk",	
+      "channel": "origin/a/wis2/uk-metoffice/data/core/weather/experimental/surface-based-observations/weather-radar",	
+      "type": "application/geo+json",	
+      "title": "Data notifications broker"	
+    }	
+  ]	
+}	
