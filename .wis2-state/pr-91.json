@@ -1,0 +1,113 @@
+[
+  {
+    "rel_path": "earth-system/uk-bas/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-bas.weather.surface-based-observations.sonde-ascent.external.json",
+    "status": "DEL",
+    "rel": "deletion",
+    "topic": "origin/a/wis2/uk-bas/metadata",
+    "notification": {
+      "id": "0784e12f-35df-4969-896d-a500ede09e41",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-05-19T11:05:50Z",
+        "data_id": "urn:wmo:md:uk-bas:weather.surface-based-observations.sonde-ascent",
+        "metadata_id": "urn:wmo:md:uk-bas:weather.surface-based-observations.sonde-ascent",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "/MZCXyRa96giGuCPPKDHnHs6AZIokj1vEDWVnFYtsRoU2SZPVmpkteqiwL7/UPKfvb5zM4Jr4DjnK/Gx/aoR/Q=="
+        },
+        "datetime": "2025-08-12T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-bas/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-bas.weather.surface-based-observations.sonde-ascent.external.json",
+          "rel": "deletion",
+          "type": "application/json",
+          "length": 7443
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.sonde-ascent.external.json",
+    "status": "DEL",
+    "rel": "deletion",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "7457fe5a-e1bb-4917-8b7d-726f89aa039b",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-05-19T11:05:50Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.sonde-ascent",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.sonde-ascent",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "cxmiZnQx/L7fX8yIwp7pQFoV1b/nHjJu9rLaX2XZVzp2yZDua8NFlHgUMr0pPIZ1raho4+CMijLNut8Hvg5lLg=="
+        },
+        "datetime": "2025-08-12T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.sonde-ascent.external.json",
+          "rel": "deletion",
+          "type": "application/json",
+          "length": 8127
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-descent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.sonde-descent.external.json",
+    "status": "DEL",
+    "rel": "deletion",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "c3c311ce-4e33-4637-9dd2-0dc61869d4da",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-05-19T11:05:50Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.sonde-descent",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.sonde-descent",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "2f/Mn+5i22wHO5k641tSKZ8SOgYZunkBN48F8Je4bZ+U/eA4qgUNVxJAEMcCLN2mIDJeYgTT8TpuhgcTf0SxPg=="
+        },
+        "datetime": "2025-08-12T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-descent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.sonde-descent.external.json",
+          "rel": "deletion",
+          "type": "application/json",
+          "length": 7404
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
