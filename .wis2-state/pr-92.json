@@ -1,0 +1,65 @@
+[
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/ship/urn.wmo.md.uk-metoffice.weather.surface-based-observations.ship.ship-reports.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "05d0736c-83a0-445f-be60-48401b92fb18",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-05-20T18:03:02Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.ship.ship-reports",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.ship.ship-reports",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "ZklBNjLUyhG7g+/b5DY7/2SWVwG/71+R5RcBZrKw+SDDwIXs3jItSjaQ2ltnmP+M/tPaObEnxmF8BQpY/6sUqg=="
+        },
+        "datetime": "2025-06-27T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/ship/urn.wmo.md.uk-metoffice.weather.surface-based-observations.ship.ship-reports.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 5192
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
