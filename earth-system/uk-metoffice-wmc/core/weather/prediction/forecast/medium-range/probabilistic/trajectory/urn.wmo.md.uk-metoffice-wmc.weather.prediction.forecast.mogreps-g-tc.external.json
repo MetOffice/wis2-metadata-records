@@ -89,7 +89,7 @@
                 "concepts": [
                     {
                         "id": "Application-ready",
-                        "title": "dataReadiness",
+                        "title": "Application ready",
                         "url": "http://reference.metoffice.gov.uk/DataCategories/data-readiness/Application-ready"
                     }
                 ],
@@ -99,7 +99,7 @@
                 "concepts": [
                     {
                         "id": "PredictionsPostProcessed",
-                        "title": "dataType",
+                        "title": "Predictions & Post Processed",
                         "description": "Predictions and Post Processed data are defined as data that infers a full coverage of the state of the physical, chemical and/or biological environment within a given domain and specific context. This includes data assimilation analysis, projections and predictions to different times and post processed outputs derived from predictions. Data are produced using automated production typically in large volumes controlled by algorithms and data science. Prediction data can take many forms, but they always have a Geospatial Feature, Coverage or native grids on creation. They may be packaged differently for supply for customer requirement.",
                         "url": "http://reference.metoffice.gov.uk/DataCategories/data-types/PredictionsPostProcessed"
                     }
@@ -111,10 +111,10 @@
                     {
                         "id": "weather",
                         "title": "Weather",
-                        "url": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline/weather"
+                        "url": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/weather"
                     }
                 ],
-                "scheme": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline"
+                "scheme": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline"
             },
             {	
                 "concepts": [	
@@ -128,7 +128,7 @@
             }	            
         ],
         "created": "2026-01-27T15:00:00Z",
-        "updated": "2026-01-27T15:00:00Z",
+        "updated": "2026-07-08T15:00:00Z",
         "wmo:dataPolicy": "core",
         "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021)).",
         "type": "dataset",

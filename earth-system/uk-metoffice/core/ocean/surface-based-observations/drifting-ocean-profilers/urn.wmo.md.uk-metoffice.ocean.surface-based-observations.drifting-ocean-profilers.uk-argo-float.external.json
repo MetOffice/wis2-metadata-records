@@ -72,7 +72,7 @@
         "concepts": [	
           {	
             "id": "Application-ready",	
-            "title": "dataReadiness",
+            "title": "Application ready",
             "url": "http://reference.metoffice.gov.uk/DataCategories/data-readiness/Application-ready"	
           }	
         ],	
@@ -82,7 +82,7 @@
         "concepts": [	
           {	
             "id": "Observations",	
-            "title": "dataType",
+            "title": "Observations",
             "description": "Observations data are defined as measurements of the physical, chemical and/or biological environment, measured at a specific time in the past.  They may be direct or indirect measurements and may be feature or coverage data.  In order to be valid, observations data must carry geospatial and temporal metadata as well as variable values (or equivalent such as pixel values for a faster coverage).",	
             "url": "http://reference.metoffice.gov.uk/DataCategories/data-types/Observations"	
           }	
@@ -94,10 +94,10 @@
           {	
             "id": "ocean",	
             "title": "Ocean",	
-            "url": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline/ocean"	
+            "url": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/ocean"	
           }	
         ],	
-        "scheme": "https://github.com/wmo-im/wis2-topic-hierarchy/blob/main/topic-hierarchy/earth-system-discipline"
+        "scheme": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline"
        },
        {	
         "concepts": [	
@@ -111,15 +111,10 @@
       }	
     ],	
     "created": "2025-03-06T14:30:00Z",	
-    "updated": "2025-03-06T14:30:00Z",		
+    "updated": "2026-07-08T15:00:00Z",
     "wmo:dataPolicy": "core",
      "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021))",
-    "type": "dataset",
-    "status": {
-      "id": "operational",
-      "title": "dataset is in 24/7 operation",
-      "url": "https://www.metoffice.gov.uk/services/data/business-data/observational"
-    }
+    "type": "dataset"
   },	
   "links": [
     {	
