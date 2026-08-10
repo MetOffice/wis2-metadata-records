@@ -1,0 +1,158 @@
+{	
+  "id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.ship-sub-surface.research-vessel-ctd",	
+  "type": "Feature",
+  "conformsTo": [	
+    "http://wis.wmo.int/spec/wcmp/2/conf/core"	
+  ],  
+  "geometry": {
+      "type": "Polygon",
+      "coordinates": [[             
+        [-180, 90],
+        [180,  90],
+        [180, -90],
+        [-180,-90],
+        [-180, 90] 
+     ]]
+ },
+ "time": {	
+    "interval": [	
+        "T00Z",	
+        "T23Z"	
+    ],	
+    "resolution": "PT1H"	
+  },  
+  "properties": {
+    "title": "Research Vessel Conductivity Temperature Depth (CTD) Profiles",	
+    "description": "Conductivity–Temperature–Depth (CTD) profiles collected from research vessels. Most, but not all, of the CTD data is from vessels that are participating in the GO‑SHIP repeat hydrography programme. These high‑quality, full‑depth ocean profiles provide essential measurements of temperature, salinity, pressure, and, where available, dissolved oxygen using research‑grade instrumentation. All observations follow internationally agreed GO‑SHIP best practices, undergo rigorous quality control, and are provided in standardised formats to ensure global interoperability. These data form part of the Global Ocean Observing System (GOOS) and support long‑term climate monitoring, detection of water‑mass changes, validation of ocean models, and scientific research requiring authoritative subsurface ocean measurements.",	
+    "contacts": [	
+      {	
+        "identifier": "MO",
+        "name": "Met Office",	
+        "organization": "Met Office",	
+        "phones": [	
+          {	
+            "value": "+443301350000"	
+          }	
+        ],	
+        "emails": [	
+          {	
+            "value": "servicedesk@metoffice.gov.uk"	
+          }	
+        ],	
+        "addresses": [	
+          {	
+            "deliveryPoint": [	
+              "FitzRoy Road"	
+            ],	
+            "name": "Met Office",	
+            "city": "Exeter",	
+            "administrativeArea": "Devon",
+            "postalCode": "EX1 3PB",	
+            "country": "United Kingdom"	
+          }
+        ],	
+        "links": [	
+          {	
+            "rel": "canonical",	
+            "type": "text/html",	
+            "href": "https://www.metoffice.gov.uk/about-us/contact"	
+          }	
+        ],	
+        "roles": ["host","producer"]
+      }
+    ],			
+    "keywords": [	
+       "ocean",
+       "surface-based observations",
+       "ship",
+       "sub-surface",
+       "CTD"	
+     ],	
+    "themes": [	
+      {	
+        "concepts": [	
+          {	
+            "id": "Application-ready",	
+            "title": "Application ready",
+            "url": "http://reference.metoffice.gov.uk/DataCategories/data-readiness/Application-ready"	
+          }	
+        ],	
+        "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-readiness"
+      },
+      {	
+        "concepts": [	
+          {	
+            "id": "Observations",	
+            "title": "Observations",
+            "description": "Observations data are defined as measurements of the physical, chemical and/or biological environment, measured at a specific time in the past.  They may be direct or indirect measurements and may be feature or coverage data.  In order to be valid, observations data must carry geospatial and temporal metadata as well as variable values (or equivalent such as pixel values for a faster coverage).",	
+            "url": "http://reference.metoffice.gov.uk/DataCategories/data-types/Observations"	
+          }	
+        ],	
+        "scheme": "http://reference.metoffice.gov.uk/DataCategories/data-types"
+      },
+      {	
+        "concepts": [	
+          {	
+            "id": "ocean",	
+            "title": "Ocean",	
+            "url": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/ocean"	
+          }	
+        ],	
+        "scheme": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline"
+       },
+       {	
+        "concepts": [
+          {
+            "id": "22/067",
+            "title": "Instrument type for water temperature/salinity profile measurement",
+            "url": "https://codes.wmo.int/bufr4/b/22/067"
+          },
+          {
+            "id": "22/065",
+            "title": "Water pressure",
+            "url": "https://codes.wmo.int/bufr4/b/22/065"
+          },
+          {
+            "id": "22/188",
+            "title": "Dissolved oxygen",
+            "url": "https://codes.wmo.int/bufr4/b/22/188"
+          }
+        ],	
+        "scheme": "http://codes.wmo.int/bufr4/b"
+      }	
+    ],	
+    "created": "2026-07-29T15:00:00Z",	
+    "updated": "2026-07-29T15:00:00Z",
+    "wmo:dataPolicy": "core",
+     "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021))",
+    "type": "dataset",
+    "formats": [
+     {
+        "name":"bufr",
+        "mediaType":"application/bufr",
+        "version": 4
+     }
+    ]
+  },	
+  "links": [
+    {
+      "rel": "about",
+      "href": "https://www.go-ship.org/",
+      "type": "text/html",
+      "title": "GO-SHIP"
+    },
+    {
+      "rel": "related",
+      "href": "https://eurogo-ship.eu/using-real-time-ctd-data-from-research-vessels-to-improve-ocean-and-weather-forecasts-a-eurogo-ship-success-story/",
+      "type": "text/html",
+      "title": "EuroGO-SHIP real time CTD article "
+    },
+    {
+      "rel": "items",
+      "href": "mqtts://broker.metoffice.gov.uk",
+      "channel": "origin/a/wis2/uk-metoffice/data/core/ocean/surface-based-observations/ship-sub-surface",
+      "type": "application/geo+json",
+      "title": "Data notifications broker"
+    }
+  ]
+}
