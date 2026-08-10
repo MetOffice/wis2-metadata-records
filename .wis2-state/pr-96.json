@@ -1,0 +1,65 @@
+[
+  {
+    "rel_path": "earth-system/uk-metoffice/core/ocean/surface-based-observations/ship-sub-surface/urn.wmo.md.uk-metoffice.ocean.surface-based-observations.ship-sub-surface.research-vessel-ctd.external.json",
+    "status": "ADD",
+    "rel": "canonical",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "31330549-c31b-4ef0-9eb5-28af4cbd1546",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-08-10T09:57:44Z",
+        "data_id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.ship-sub-surface.research-vessel-ctd",
+        "metadata_id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.ship-sub-surface.research-vessel-ctd",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "SR4wgrcfc3M3tSuFHpdKKHH3ZYkr2WSfDWZEW6/npRbF/0Oc1eMSqC2N9ZQLf7qBKOF2Xn/LU4EgevA1pOYzQA=="
+        },
+        "datetime": "2026-07-29T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/ocean/surface-based-observations/ship-sub-surface/urn.wmo.md.uk-metoffice.ocean.surface-based-observations.ship-sub-surface.research-vessel-ctd.external.json",
+          "rel": "canonical",
+          "type": "application/json",
+          "length": 5894
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
