@@ -1,0 +1,1555 @@
+[
+  {
+    "rel_path": "earth-system/eu-eumetnet-amdar/core/weather/surface-based-observations/upper-air-observations/amdar/urn.wmo.md.eu-eumetnet-amdar.weather.surface-based-observations.amdar.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/eu-eumetnet-amdar/metadata",
+    "notification": {
+      "id": "57ed5caf-2603-4334-b1bd-9b34c33e05d2",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:eu-eumetnet-amdar:weather.surface-based-observations.amdar",
+        "metadata_id": "urn:wmo:md:eu-eumetnet-amdar:weather.surface-based-observations.amdar",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "ePON9woxReygkTolJvySQ08nnaaCsF5/ZnlH+FlM55mvQlKUCLa5pebQx3TxywTV5fl1l5hdqR0JudcVYiai+w=="
+        },
+        "datetime": "2026-02-04T14:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/eu-eumetnet-amdar/core/weather/surface-based-observations/upper-air-observations/amdar/urn.wmo.md.eu-eumetnet-amdar.weather.surface-based-observations.amdar.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 5928
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.temp.sonde-ascent-bas.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "abdf61c0-302d-48fb-9cb5-a05f118d6dbe",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.temp.sonde-ascent-bas",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.temp.sonde-ascent-bas",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "0/60gGXlDX7ggsaCwDMahDdzcoMSrhcGF3gWKOQ1m3wRero1g1U0Mp3IwJuTKWNBK8evK5Dsz1+TLKkinIhD0A=="
+        },
+        "datetime": "2025-08-12T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.temp.sonde-ascent-bas.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 7579
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/recommended/weather/surface-based-observations/tropical-cyclone/urn.wmo.md.uk-metoffice.weather.surface-based-observations.tc-initial-data.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "4bfabab3-33d9-4036-b97c-77e1a1780ba8",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.tc-initial-data",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.tc-initial-data",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "X7EJn+L4Wc/H7/RiUi1IHrTLmEaVVp4aYimorWihaXj5RNosFVZjKZspiJhod1LjpChfw0FUK216eyVfowJRVA=="
+        },
+        "datetime": "2026-03-10T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/recommended/weather/surface-based-observations/tropical-cyclone/urn.wmo.md.uk-metoffice.weather.surface-based-observations.tc-initial-data.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 6203
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/prediction/forecast/medium-range/deterministic/trajectory/urn.wmo.md.uk-metoffice.weather.prediction.forecast.tc-guidance.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "4a94a3b8-ca1d-482a-a0f8-ae8e4814cdee",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.prediction.forecast.tc-guidance",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.prediction.forecast.tc-guidance",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "ZjvQQ6ndWSS0eFd+Cgf1XvH3bIvTDCmlTD9Cx1VfzrOIhuKKdJgib9RS+/CS7TKHIoS97fNCQ6Nqag2EVTYIHw=="
+        },
+        "datetime": "2026-03-10T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/prediction/forecast/medium-range/deterministic/trajectory/urn.wmo.md.uk-metoffice.weather.prediction.forecast.tc-guidance.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 6366
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice-wmc/recommended/weather/prediction/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-wmc.weather.prediction.forecast.global-10km.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice-wmc/metadata",
+    "notification": {
+      "id": "ea08c533-99fd-414b-9764-72235992214f",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.forecast.global-10km",
+        "metadata_id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.forecast.global-10km",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "O3Oup3ybOFOafy7Jjg8nbanx0VZcQOltqVBsJ9csgJttdkQOprLRsBffGDFIEVhzNqhhCN5V2MStvRyyJP6UjQ=="
+        },
+        "datetime": "2026-06-15T14:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice-wmc/recommended/weather/prediction/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-wmc.weather.prediction.forecast.global-10km.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 51983
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.temp.sonde-ascent-fk.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "9e33cf7c-37fc-4912-bc2b-bc28cf02834a",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.447,
+          -51.822
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.temp.sonde-ascent-fk",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.temp.sonde-ascent-fk",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "jUVy6no3lLwm2V9fpP4fmXWss14+LDU8kUmEGn60ZIOWAlolh7kbgDaI+KXAFIH7W++uW8+dRKAtuawMF7S8Sg=="
+        },
+        "datetime": "2025-08-12T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.temp.sonde-ascent-fk.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 6923
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/eu-eumetnet-gnss/core/weather/surface-based-observations/gnss-total-delay/urn.wmo.md.eu-eumetnet-gnss.weather.surface-based-observations.gnss-total-delay.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/eu-eumetnet-gnss/metadata",
+    "notification": {
+      "id": "6e44e5aa-fabd-4ee3-bcf0-932eaa7ef719",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:eu-eumetnet-gnss:weather.surface-based-observations.gnss-total-delay",
+        "metadata_id": "urn:wmo:md:eu-eumetnet-gnss:weather.surface-based-observations.gnss-total-delay",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "iouG485ykv+3mqy4yGy8G7nc2cZPvIThvQiIrnXlblIOxJbfVwAAC1fvjXbD7JaXrCq15doq8zC1mMuYXtiqLQ=="
+        },
+        "datetime": "2025-05-06T14:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/eu-eumetnet-gnss/core/weather/surface-based-observations/gnss-total-delay/urn.wmo.md.eu-eumetnet-gnss.weather.surface-based-observations.gnss-total-delay.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 5143
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice-wmc/core/weather/prediction/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-wmc.weather.prediction.forecast.global.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice-wmc/metadata",
+    "notification": {
+      "id": "60dc89af-5a60-4b8c-96cb-e4b44fbe1e25",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.forecast.global",
+        "metadata_id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.forecast.global",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "J9rnacplwVqCiGyjHegPZrJnoFlkcM41eZRwhPs2qy22HI8rNoLsmzxLTi3Fk7eJnorNCLhaxjgTHGWEuRsAig=="
+        },
+        "datetime": "2025-08-26T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice-wmc/core/weather/prediction/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-wmc.weather.prediction.forecast.global.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 19083
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/eu-eumetnet-profiles/core/weather/surface-based-observations/microwave-radiometer/urn.wmo.md.eu-eumetnet-profiles.weather.surface-based-observations.microwave-radiometer.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/eu-eumetnet-profiles/metadata",
+    "notification": {
+      "id": "dea3a2e1-9f43-4f06-aa75-ee423a1aa151",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:eu-eumetnet-profiles:weather.surface-based-observations.microwave-radiometer",
+        "metadata_id": "urn:wmo:md:eu-eumetnet-profiles:weather.surface-based-observations.microwave-radiometer",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "tjvRg5Pc6zVgtrvBKiXAbsr2qCn1WzRKvC7UGdPqXTLyBqcHmgODKNPhl3/f5Jbs7rnKgvYLXDWyJn3PMv/Ilg=="
+        },
+        "datetime": "2026-02-04T14:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/eu-eumetnet-profiles/core/weather/surface-based-observations/microwave-radiometer/urn.wmo.md.eu-eumetnet-profiles.weather.surface-based-observations.microwave-radiometer.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 6172
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/ocean/surface-based-observations/moored-buoys-and-moorings/urn.wmo.md.uk-metoffice.ocean.surface-based-observations.moored-buoys-and-moorings.moored-buoys.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "04cfafa0-5b07-4e3e-a5d4-886eb42476e3",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.0,
+              0.0
+            ],
+            [
+              20.0,
+              0.0
+            ],
+            [
+              20.0,
+              70.0
+            ],
+            [
+              -80.0,
+              70.0
+            ],
+            [
+              -80.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.moored-buoys-and-moorings.moored-buoys",
+        "metadata_id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.moored-buoys-and-moorings.moored-buoys",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "QW35mdVwbYnrQwUaiPgA85PhY95Ac8Dsu1qFATrnG5QBD7ET33/xqDFwYioPiPW+AkqQC3jUf6kn0A5Uu0rBIg=="
+        },
+        "datetime": "2025-06-27T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/ocean/surface-based-observations/moored-buoys-and-moorings/urn.wmo.md.uk-metoffice.ocean.surface-based-observations.moored-buoys-and-moorings.moored-buoys.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 4947
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/ocean/surface-based-observations/ship-sub-surface/urn.wmo.md.uk-metoffice.ocean.surface-based-observations.ship-sub-surface.research-vessel-ctd.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "5a9463b7-1c11-4bdd-8091-c34524dec47a",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.ship-sub-surface.research-vessel-ctd",
+        "metadata_id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.ship-sub-surface.research-vessel-ctd",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "XOCyS+QCYrlcXqpvEIvYvGEQD4ROxyZGAgcQRM0Px/hKFtl+65Lh+T99Wfuf4a9hYcXVgfdhHrKUoroDtuX2QQ=="
+        },
+        "datetime": "2026-07-29T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/ocean/surface-based-observations/ship-sub-surface/urn.wmo.md.uk-metoffice.ocean.surface-based-observations.ship-sub-surface.research-vessel-ctd.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 6031
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/eu-eumetnet-profiles/core/weather/surface-based-observations/lidar-and-ceilometer/urn.wmo.md.eu-eumetnet-profiles.weather.surface-based-observations.lidar-and-ceilometer.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/eu-eumetnet-profiles/metadata",
+    "notification": {
+      "id": "42f22a79-c410-4e3b-b3c2-54e7e3f10d63",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:eu-eumetnet-profiles:weather.surface-based-observations.lidar-and-ceilometer",
+        "metadata_id": "urn:wmo:md:eu-eumetnet-profiles:weather.surface-based-observations.lidar-and-ceilometer",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "w+DqI6Cv9cCRIwuq3xV79aBpo5YL9KwRKu+Q/XmSIZ31UlA4ReHTHxx34v/kaUBD/xx7kM4DXCQml9djWt03PA=="
+        },
+        "datetime": "2026-02-04T14:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/eu-eumetnet-profiles/core/weather/surface-based-observations/lidar-and-ceilometer/urn.wmo.md.eu-eumetnet-profiles.weather.surface-based-observations.lidar-and-ceilometer.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 7436
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/ship/urn.wmo.md.uk-metoffice.weather.surface-based-observations.ship.ship-reports.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "9f750be1-284e-4d8a-b228-b9b91b603885",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.ship.ship-reports",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.ship.ship-reports",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "cY/zjBWOUqw907QsBAg45gjti6+pswAOuloxkT4fSkbr0tIn4jcBD6iRg9ZylZ/DaY89fTZWXzuY5S267GbgcA=="
+        },
+        "datetime": "2025-06-27T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/ship/urn.wmo.md.uk-metoffice.weather.surface-based-observations.ship.ship-reports.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 5083
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice-wmc/core/weather/prediction/forecast/medium-range/deterministic/trajectory/urn.wmo.md.uk-metoffice-wmc.weather.prediction.forecast.global-tc.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice-wmc/metadata",
+    "notification": {
+      "id": "6c4fac15-65cf-4c13-bafe-e8b00c93d871",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.forecast.global-tc",
+        "metadata_id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.forecast.global-tc",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "zk5JWYKO3QEmWWw2nvFuOj0kJxgI79uhRi+/Q0SHDu1FkNJSoS9tnmH6ktHTMfGf6iExXqvQaaW0Ssr/3guLjA=="
+        },
+        "datetime": "2026-06-17T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice-wmc/core/weather/prediction/forecast/medium-range/deterministic/trajectory/urn.wmo.md.uk-metoffice-wmc.weather.prediction.forecast.global-tc.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 6603
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-descent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.temp.sonde-descent-uk.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "b58be487-514d-4570-93db-94ea8ef688c1",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.temp.sonde-descent-uk",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.temp.sonde-descent-uk",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "js6qbuSQ5RKmDyO7zSFNsTU3ncuDSwkIH2rWkjuTd9du7kKlDJtgDGh1ytsFmpyOdu6Dw+s4xIA7CMlO5WrExg=="
+        },
+        "datetime": "2025-08-12T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-descent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.temp.sonde-descent-uk.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 7304
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/upper-air-observations/lightning/urn.wmo.md.uk-metoffice.weather.upper-air-observations.lightning.uk-leela.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "1db4d2d8-46e2-426f-a18a-7df7f650a606",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -12.0,
+              49.0
+            ],
+            [
+              4.25,
+              49.0
+            ],
+            [
+              4.25,
+              62.5
+            ],
+            [
+              -12.0,
+              62.5
+            ],
+            [
+              -12.0,
+              49.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.upper-air-observations.lightning.uk-leela",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.upper-air-observations.lightning.uk-leela",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "u5wKt8Vc3cDwKAieo4DO10Kuf5n2pGqZbmViZ8QIE6zVkmjTdM4av+0vMk2Wu5Qjgjy7FhinRaTNBe+AfMpg+g=="
+        },
+        "datetime": "2025-08-12T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/upper-air-observations/lightning/urn.wmo.md.uk-metoffice.weather.upper-air-observations.lightning.uk-leela.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 7746
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice-wmc/recommended/weather/prediction/analysis/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-wmc.weather.prediction.analysis.global-10km.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice-wmc/metadata",
+    "notification": {
+      "id": "f9eeacb2-4a69-4795-958f-579ac5f96cd9",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.analysis.global-10km",
+        "metadata_id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.analysis.global-10km",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "pSHCVF5hUa2oV2Sd4ld2XVlOVtmxUkvSf2ZBgnoRrzORF6MA+F8fByQOAxGQ8C7zvZdVhBQtdy+wGpO7u7xv2Q=="
+        },
+        "datetime": "2026-06-15T14:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice-wmc/recommended/weather/prediction/analysis/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-wmc.weather.prediction.analysis.global-10km.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 47817
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/eu-eumetnet-amdar/core/weather/surface-based-observations/upper-air-observations/tamdar/urn.wmo.md.eu-eumetnet-amdar.weather.surface-based-observations.tamdar.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/eu-eumetnet-amdar/metadata",
+    "notification": {
+      "id": "a68b5d3c-1af3-4fe5-8f52-df7ee4bacf19",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:eu-eumetnet-amdar:weather.surface-based-observations.tamdar",
+        "metadata_id": "urn:wmo:md:eu-eumetnet-amdar:weather.surface-based-observations.tamdar",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "LYuIhp7Loqi+5TzHHD1dtEr5LN6GRPPdE/Rqg7R6rYQvHtf9HetFfxhpulvkZwGEd1nWN3qZZepA5mRU/vRu/A=="
+        },
+        "datetime": "2025-05-06T14:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/eu-eumetnet-amdar/core/weather/surface-based-observations/upper-air-observations/tamdar/urn.wmo.md.eu-eumetnet-amdar.weather.surface-based-observations.tamdar.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 5872
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/rainfall/urn.wmo.md.uk-metoffice.weather.surface-based-observations.rainfall.hourly-rainfall.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "099a7548-c73a-4f33-92d1-2b4744698f54",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.rainfall.hourly-rainfall",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.rainfall.hourly-rainfall",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "e42l+ELjcVerDJqPMy8gyCWTjl0hADkX2dzUEWYzf1tqrj7gNA++GpoB3JXbIrckLYBORQf5H0LsK5EaU3S85g=="
+        },
+        "datetime": "2026-04-23T17:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/rainfall/urn.wmo.md.uk-metoffice.weather.surface-based-observations.rainfall.hourly-rainfall.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 5827
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice-globalwave/core/ocean/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-globalwave.ocean.prediction.analysis.global-wave.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice-globalwave/metadata",
+    "notification": {
+      "id": "b92ef0a7-49f5-4145-ab27-0175ec1d670a",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice-globalwave:ocean.prediction.analysis.global-wave",
+        "metadata_id": "urn:wmo:md:uk-metoffice-globalwave:ocean.prediction.analysis.global-wave",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "qjxDeW8pPQzmbA75sOAMKoIbimBGFQDL5aVfFP6rWzVmW5Nu1Kmzbf2IuLZpqJtO8IqkHcQJVXrJHD1l0a729Q=="
+        },
+        "datetime": "2026-01-20T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice-globalwave/core/ocean/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-globalwave.ocean.prediction.analysis.global-wave.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 21956
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/ocean/surface-based-observations/drifting-ocean-profilers/urn.wmo.md.uk-metoffice.ocean.surface-based-observations.drifting-ocean-profilers.uk-argo-float.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "b82dd574-b744-4277-95a9-eac00a557974",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.drifting-ocean-profilers.uk-argo-float",
+        "metadata_id": "urn:wmo:md:uk-metoffice:ocean.surface-based-observations.drifting-ocean-profilers.uk-argo-float",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "jBqK9CJ8D/gZ7mB9Yg+dJpgCjaX7zNS2PX+rWDkT1MOm8vgEGwEIJDz4ItCM11c0YsWgbY2uxdexakQwBRVPWw=="
+        },
+        "datetime": "2025-03-06T14:30:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/ocean/surface-based-observations/drifting-ocean-profilers/urn.wmo.md.uk-metoffice.ocean.surface-based-observations.drifting-ocean-profilers.uk-argo-float.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 5533
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.temp.sonde-ascent-sh.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "084938ba-0d7f-4cc1-b4cf-02241585db6e",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.712,
+          -15.965
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.temp.sonde-ascent-sh",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.temp.sonde-ascent-sh",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "qwLmOnnwX288/ZR/ZLDhcfZw/MEbFdSlMk/1SN2ZqSVca5EnRnf7yOs6OknFiHBCSeCEw4COLKFPms4bG+EQiQ=="
+        },
+        "datetime": "2025-08-12T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.temp.sonde-ascent-sh.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 6960
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice-wmc/core/weather/prediction/forecast/medium-range/probabilistic/trajectory/urn.wmo.md.uk-metoffice-wmc.weather.prediction.forecast.mogreps-g-tc.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice-wmc/metadata",
+    "notification": {
+      "id": "08a84ed1-b702-4c0b-b15d-a2816e65720f",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.forecast.mogreps-g-tc",
+        "metadata_id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.forecast.mogreps-g-tc",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "UqsJbG1UyU7PG5HTx/on7FHg58Ph9nKikMC/QHGEi+rMqMQy7p0nSYAxXOab0C1jxZxfPabtoHUVsP/U+AjU2g=="
+        },
+        "datetime": "2026-01-27T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice-wmc/core/weather/prediction/forecast/medium-range/probabilistic/trajectory/urn.wmo.md.uk-metoffice-wmc.weather.prediction.forecast.mogreps-g-tc.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 7032
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/synop/urn.wmo.md.uk-metoffice.weather.surface-based-observations.synop.uk-synop.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "fc4689ed-23bc-4c4b-9878-e4db2d65d7e3",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.synop.uk-synop",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.synop.uk-synop",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "apipOOTPxaI3M0wShSoHmU3N0yQdZZJG2i37uafxycaoHHIz0gFjHPRBXOm1DzTa/PagfEnAp9+wEBesx246yQ=="
+        },
+        "datetime": "2024-12-14T13:05:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/synop/urn.wmo.md.uk-metoffice.weather.surface-based-observations.synop.uk-synop.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 6189
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.temp.sonde-ascent-uk.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "c77630e4-7421-40a4-ac73-d74619247cfe",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.temp.sonde-ascent-uk",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.temp.sonde-ascent-uk",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "4HNxrdftmI/Jq3+TpLIraIrmlYEK8eGbjqZPU0V96ZwhhWDvLYpLfT0XxS6489EaI9575jD50ciIWVGP1DJimQ=="
+        },
+        "datetime": "2025-08-12T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/sonde-ascent/urn.wmo.md.uk-metoffice.weather.surface-based-observations.temp.sonde-ascent-uk.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 8026
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/eu-eumetnet-profiles/core/weather/surface-based-observations/radar-wind-profiler/urn.wmo.md.eu-eumetnet-profiles.weather.surface-based-observations.radar-wind-profiler.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/eu-eumetnet-profiles/metadata",
+    "notification": {
+      "id": "e7122ed2-7c2c-45bd-9838-35bc08d97b07",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:eu-eumetnet-profiles:weather.surface-based-observations.radar-wind-profiler",
+        "metadata_id": "urn:wmo:md:eu-eumetnet-profiles:weather.surface-based-observations.radar-wind-profiler",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "KOgukJmnxdjCBJlrMaM6z/Hm4GkNGDTjahXT8T5YkhR1qUn0MAXV3da/eCPtnE7jLLQc7e+8OU5kdbrRjrC2AA=="
+        },
+        "datetime": "2026-02-05T11:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/eu-eumetnet-profiles/core/weather/surface-based-observations/radar-wind-profiler/urn.wmo.md.eu-eumetnet-profiles.weather.surface-based-observations.radar-wind-profiler.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 7619
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice-globalwave/core/ocean/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-globalwave.ocean.prediction.forecast.global-wave.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice-globalwave/metadata",
+    "notification": {
+      "id": "69763fdc-6345-45eb-bf4a-e2fd461e09f2",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice-globalwave:ocean.prediction.forecast.global-wave",
+        "metadata_id": "urn:wmo:md:uk-metoffice-globalwave:ocean.prediction.forecast.global-wave",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "o4FW9ifcrlJEwa54N6uAO04pWMAIqKgutTV+jieIQoZiWgdyl5FugwcZ20JyhU8g/ld2vTMV5G5I7RNFG1dtgA=="
+        },
+        "datetime": "2026-01-20T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice-globalwave/core/ocean/forecast/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-globalwave.ocean.prediction.forecast.global-wave.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 24925
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice/core/weather/surface-based-observations/weather-radar/urn.wmo.md.uk-metoffice.weather.surface-based-observations.weather-radar.surface-rainrate-estimate-uk-ie.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice/metadata",
+    "notification": {
+      "id": "fe41f6c7-718a-428a-91f5-2ee72f4948fa",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -11.74,
+              46.29
+            ],
+            [
+              -18.93,
+              61.76
+            ],
+            [
+              8.45,
+              62.95
+            ],
+            [
+              5.14,
+              46.97
+            ],
+            [
+              -11.74,
+              46.29
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.weather-radar.surface-rainrate-estimate-uk-ie",
+        "metadata_id": "urn:wmo:md:uk-metoffice:weather.surface-based-observations.weather-radar.surface-rainrate-estimate-uk-ie",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "175mGolL353zVpyNr1FCZ9s4O2IOVzrypIO93EsnjH5OQUq8XlAcAuiyQXlavlKQ0uFBl0csCfZ42Fu0pgbKtw=="
+        },
+        "datetime": "2026-05-14T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice/core/weather/surface-based-observations/weather-radar/urn.wmo.md.uk-metoffice.weather.surface-based-observations.weather-radar.surface-rainrate-estimate-uk-ie.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 5716
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  },
+  {
+    "rel_path": "earth-system/uk-metoffice-wmc/core/weather/prediction/analysis/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-wmc.weather.prediction.analysis.global.external.json",
+    "status": "MOD",
+    "rel": "update",
+    "topic": "origin/a/wis2/uk-metoffice-wmc/metadata",
+    "notification": {
+      "id": "9759393a-f533-42d2-8e34-2324797f3ba1",
+      "conformsTo": [
+        "http://wis.wmo.int/spec/wnm/1/conf/core"
+      ],
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -180,
+              90
+            ],
+            [
+              180,
+              90
+            ],
+            [
+              180,
+              -90
+            ],
+            [
+              -180,
+              -90
+            ],
+            [
+              -180,
+              90
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "pubtime": "2026-09-18T16:17:23Z",
+        "data_id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.analysis.global",
+        "metadata_id": "urn:wmo:md:uk-metoffice-wmc:weather.prediction.analysis.global",
+        "cache": true,
+        "integrity": {
+          "method": "sha512",
+          "value": "478HX5039h5VT3j0+Q23DNQlvoqV8DqtzfJvO3sCSJqar2xFRT7E4U4XZCbn2oToVbv7+r+VZavbQNn7zZD5Aw=="
+        },
+        "datetime": "2025-08-26T15:00:00Z"
+      },
+      "links": [
+        {
+          "href": "https://raw.githubusercontent.com/MetOffice/wis2-metadata-records/main/earth-system/uk-metoffice-wmc/core/weather/prediction/analysis/medium-range/deterministic/global/urn.wmo.md.uk-metoffice-wmc.weather.prediction.analysis.global.external.json",
+          "rel": "update",
+          "type": "application/json",
+          "length": 13139
+        }
+      ]
+    },
+    "validation_passed": true,
+    "validation_errors": [],
+    "published": true,
+    "publish_error": null
+  }
+]
