@@ -56,7 +56,7 @@
                         "city": "Exeter",
                         "administrativeArea": "Devon",
                         "postalCode": "EX1 3PB",
-                        "country": "United Kingdom"
+                        "country": "GBR"
                     }
                 ],
                 "links": [
@@ -66,6 +66,7 @@
                         "href": "https://www.metoffice.gov.uk/about-us/contact"
                     }
                 ],
+                "contactInstructions": "Contact us online, by phone, or by post. If you wish to contact us by phone, please call during working hours.",
                 "roles": [
                     "host",
                     "producer"
@@ -116,7 +117,7 @@
             }	            
         ],
         "created": "2026-03-10T15:00:00Z",
-        "updated": "2026-07-08T15:00:00Z",
+        "updated": "2026-09-18T06:00:00Z",
         "wmo:dataPolicy": "core",
         "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021)).",
         "type": "dataset",

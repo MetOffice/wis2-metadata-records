@@ -168,7 +168,7 @@
                         "city": "Exeter",
                         "administrativeArea": "Devon",
                         "postalCode": "EX1 3PB",
-                        "country": "United Kingdom"
+                        "country": "GBR"
                     }
                 ],
                 "links": [
@@ -178,6 +178,7 @@
                         "href": "https://www.metoffice.gov.uk/about-us/contact"
                     }
                 ],
+                "contactInstructions": "Contact us online, by phone, or by post. If you wish to contact us by phone, please call during working hours.",
                 "roles": [
                     "host",
                     "producer"
@@ -906,7 +907,7 @@
             }
         ],
         "created": "2026-06-15T14:00:00Z",
-        "updated": "2026-07-08T15:00:00Z",
+        "updated": "2026-09-18T06:00:00Z",
         "wmo:dataPolicy": "recommended",
         "rights": "British Crown copyright 2023-2025, the Met Office",
         "license": "CC BY-SA",
